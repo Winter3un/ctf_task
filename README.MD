@@ -39,7 +39,7 @@ git config --global user.email "your email"    //配置email
 
 ```
 git init #初始化一个本地库
-git add README.md #添加文件到本地仓库
+git add -A #添加所有修改到本地仓库
 git commit -m "first commit" #提交到本地库并备注，此时变更仍在本地。
 git remote add orgin git@github.com:xxx/xxx.git  #增加一个远程服务器的别名。
 git push -u orgin master #将本地文件提交到Github的remoname版本库中。此时才更新了本地变更到github服务上。
