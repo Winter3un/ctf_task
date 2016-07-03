@@ -1,3 +1,4 @@
+# -*-coding=utf8-*-
 from pwn import *
 # context(log_level="debug")
 elf = ELF('qwb3')
