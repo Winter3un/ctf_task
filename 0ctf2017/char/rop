@@ -1,0 +1,2219 @@
+Gadgets information
+============================================================
+0x00168717 : add ah, ah ; ret
+0x0016bb57 : add ah, ah ; ret 0xfff7
+0x0016c78f : add ah, ah ; ret 0xfff8
+0x00174860 : add ah, al ; ret
+0x0016acb7 : add ah, al ; ret 0xfff4
+0x0017c5f1 : add ah, byte ptr [eax + 0xe] ; add al, 0xc6 ; ret
+0x00180369 : add ah, byte ptr [ebp + 0x41140e0a] ; ret
+0x00170617 : add ah, byte ptr [ebx + 0x41140e0a] ; ret
+0x00195e00 : add ah, byte ptr [ebx + 0xa] ; ret
+0x00174987 : add ah, byte ptr [ecx + 0x43100e0a] ; ret
+0x00187831 : add ah, byte ptr [ecx + 0xa] ; ret
+0x0018df6d : add ah, byte ptr [ecx + 0xe] ; add al, 0xc6 ; ret
+0x001986f9 : add ah, byte ptr [edx + 0x41140e0a] ; ret
+0x00185c23 : add ah, byte ptr [edx + 0xe] ; add al, 0xc6 ; ret
+0x00177be1 : add ah, byte ptr [esi + 0x43140e0a] ; ret
+0x00188324 : add ah, byte ptr [esi + 0xa] ; ret
+0x0017af13 : add ah, byte ptr [esi + ecx + 8] ; ret
+0x0017baa3 : add ah, dh ; ret
+0x00171beb : add ah, dh ; ret 0xffeb
+0x00168707 : add ah, dh ; ret 0xffec
+0x0016e447 : add ah, dh ; ret 0xfffb
+0x0016db67 : add ah, dl ; ret
+0x0017b983 : add ah, dl ; ret 0
+0x0016acbf : add ah, dl ; ret 0xfff4
+0x00079076 : add al, 0 ; add al, ch ; ret 0xfffc
+0x000662cd : add al, 0 ; add bl, dh ; ret
+0x0006c709 : add al, 0 ; add byte ptr [eax], al ; add byte ptr [ecx], ch ; ret 0xe0c1
+0x00129a4d : add al, 0 ; add byte ptr [eax], al ; add esp, 0xc ; ret
+0x000a7431 : add al, 0 ; add byte ptr [eax], al ; ret
+0x0019c8c9 : add al, 0 ; add byte ptr [ebx + eax], ah ; add byte ptr [eax], al ; ret
+0x0007f454 : add al, 0 ; add byte ptr [ecx + 0x5d5f5ed0], cl ; ret
+0x000f3e0c : add al, 0 ; add byte ptr [ecx - 0x617dbfc], cl ; ret 0
+0x001189e9 : add al, 0 ; add byte ptr [ecx - 0x7cf5740e], cl ; ret 0x8d04
+0x0010bf75 : add al, 0 ; add byte ptr [ecx], al ; ret 0xb70f
+0x000780bc : add al, 0 ; add byte ptr [ecx], bh ; ret 0x840f
+0x000c25dc : add al, 0 ; add byte ptr [ecx], bh ; ret 0x860f
+0x000e5329 : add al, 0 ; add byte ptr [ecx], cl ; ret 0x850f
+0x0019dcb1 : add al, 0 ; add byte ptr [edi + 6], al ; add byte ptr [eax], al ; ret
+0x0019c05e : add al, 0 ; ret 0x502
+0x0003116d : add al, 0x24 ; add esp, 0xc ; ret
+0x000310fc : add al, 0x24 ; add esp, 4 ; ret
+0x0002f731 : add al, 0x24 ; ret
+0x000752f5 : add al, 0x24 ; ret 0x10
+0x0012b74b : add al, 0x29 ; ret 0x4689
+0x0006d001 : add al, 0x29 ; ret 0x5489
+0x000a77aa : add al, 0x29 ; ret 0xd269
+0x001295fc : add al, 0x29 ; ret 0xd789
+0x001234a5 : add al, 0x39 ; ret 0x3676
+0x0007adce : add al, 0x5b ; ret
+0x00089a4c : add al, 0x5f ; ret
+0x000176fe : add al, 0x73 ; ret 0x7d80
+0x000d1bc6 : add al, 0x74 ; add al, 0xa8 ; add dword ptr [edx + ebx*4 - 0xa], esi ; ret 0x7408
+0x00097c8f : add al, 0x75 ; add ecx, dword ptr [ecx + 0x5f5e084a] ; ret
+0x000fc2d7 : add al, 0x75 ; ret 0xdeeb
+0x001321eb : add al, 0x76 ; ret
+0x0001ed60 : add al, 0x83 ; ret 0x3901
+0x000bbf4a : add al, 0x83 ; ret 0x3904
+0x0011fd16 : add al, 0x83 ; ret 0x3908
+0x00025721 : add al, 0x83 ; ret 0x3910
+0x0001ced8 : add al, 0x83 ; ret 0x3b01
+0x0001dc6e : add al, 0x83 ; ret 0x8301
+0x0007c4c0 : add al, 0x83 ; ret 0x8304
+0x000c3494 : add al, 0x83 ; ret 0x8305
+0x000d4851 : add al, 0x83 ; ret 0x8340
+0x000e90f6 : add al, 0x83 ; ret 0x8401
+0x0007c4c3 : add al, 0x83 ; ret 0x8404
+0x001046ea : add al, 0x83 ; ret 0x8501
+0x00097cc6 : add al, 0x83 ; ret 0x8504
+0x000d52a5 : add al, 0x83 ; ret 0x8505
+0x000b22b6 : add al, 0x83 ; ret 0x8530
+0x0011887c : add al, 0x83 ; ret 0x8901
+0x0004bafe : add al, 0x83 ; ret 0x8904
+0x001287c5 : add al, 0x83 ; ret 0x8908
+0x0004bb34 : add al, 0x83 ; ret 0x8b04
+0x000d0662 : add al, 0x83 ; ret 0x8d04
+0x00103789 : add al, 0x83 ; ret 0xb801
+0x000c0465 : add al, 0x83 ; ret 0xeb04
+0x000783da : add al, 0x83 ; ret 0xf07
+0x0018a1bf : add al, 0x87 ; add eax, dword ptr [ebx + eax*4 + 5] ; add dh, byte ptr [ebp + 0xa] ; ret
+0x0017e1e1 : add al, 0x87 ; add eax, dword ptr [ebx] ; add al, 0xa ; ret
+0x00191791 : add al, 0x87 ; add edi, dword ptr [eax + 0xa] ; ret
+0x0017e249 : add al, 0x87 ; add edi, dword ptr [ebx + 0xa] ; ret
+0x00184595 : add al, 0x87 ; add edi, dword ptr [ecx + 0xa] ; ret
+0x00190ce5 : add al, 0x87 ; add edx, dword ptr [esi + 0xa] ; ret
+0x001711bd : add al, 0x87 ; add esi, dword ptr [edi + 0xa] ; ret
+0x000e4ae7 : add al, 0x89 ; ret 0x408d
+0x0001f067 : add al, 0x89 ; ret 0x4574
+0x00098a9c : add al, 0x89 ; ret 0x474
+0x000d58a6 : add al, 0x89 ; ret 0x478b
+0x0001fdaf : add al, 0x89 ; ret 0x5574
+0x000dac44 : add al, 0x89 ; ret 0x789
+0x00124a55 : add al, 0x89 ; ret 0x8365
+0x000185a2 : add al, 0x89 ; ret 0x8589
+0x00114137 : add al, 0x89 ; ret 0xc031
+0x000c09ce : add al, 0x89 ; ret 0xc283
+0x0012f485 : add al, 0x89 ; ret 0xc889
+0x000291db : add al, 0x89 ; ret 0xc985
+0x000dae09 : add al, 0x89 ; ret 0xd285
+0x000d2e66 : add al, 0x89 ; ret 0xd4eb
+0x00079f48 : add al, 0x89 ; ret 0xeac1
+0x00126f3f : add al, 0x89 ; ret 0xebeb
+0x00032fc3 : add al, 0x89 ; ret 0xfac1
+0x0002d63f : add al, 0x89 ; ret 0xff25
+0x0006a013 : add al, 0x8b ; add byte ptr [0x200], ah ; ret
+0x00069fe3 : add al, 0x8b ; add byte ptr [0x804], ah ; ret
+0x00090f32 : add al, 0x8b ; add dword ptr [ecx + 0x5ff88902], ecx ; ret
+0x00026f7c : add al, 0x90 ; ret
+0x001711d0 : add al, 0xa ; ret
+0x000d1bc8 : add al, 0xa8 ; add dword ptr [edx + ebx*4 - 0xa], esi ; ret 0x7408
+0x000f2b52 : add al, 0xb ; add byte ptr [ecx - 0x8fbdb8c], cl ; ret 0xff80
+0x0011f717 : add al, 0xb8 ; add dword ptr [eax], eax ; add byte ptr [eax], al ; ret
+0x0001925f : add al, 0xb8 ; ret 0
+0x001470de : add al, 0xc3 ; add eax, 5 ; ret
+0x001704ec : add al, 0xc6 ; ret
+0x00171bdd : add al, 0xc7 ; ret
+0x0003116b : add al, 0xdd ; add al, 0x24 ; add esp, 0xc ; ret
+0x00031cc7 : add al, 0xe8 ; ret
+0x000ea678 : add al, 0xe8 ; ret 0x5f
+0x0001c258 : add al, 0xe8 ; ret 0x605
+0x0001b558 : add al, 0xe8 ; ret 0x612
+0x00037fc8 : add al, 0xe8 ; ret 0xffdb
+0x0007f208 : add al, 0xe8 ; ret 0xffea
+0x0006ca68 : add al, 0xe8 ; ret 0xfffa
+0x0010fbc7 : add al, 0xe9 ; ret
+0x0007331b : add al, 0xeb ; ret 0x9066
+0x000ec0bb : add al, 0xf3 ; ret
+0x0007d272 : add al, 0xf7 ; ret 0
+0x000f2918 : add al, 0xf7 ; ret 0xff80
+0x000d9a6a : add al, 1 ; ret 0x689
+0x00097c7c : add al, 1 ; ret 0xff85
+0x0004b4f2 : add al, 2 ; add byte ptr [ebx - 0x6bf0fe40], al ; ret 0x25e9
+0x0019d89c : add al, 5 ; add byte ptr [eax], al ; ret
+0x00069fe7 : add al, 8 ; add byte ptr [eax], al ; ret
+0x0018b5df : add al, ah ; ret
+0x0019b5bf : add al, al ; ret
+0x0016f9f7 : add al, bh ; ret 0xffea
+0x001470d6 : add al, bl ; add eax, 3 ; ret
+0x0016fb07 : add al, bl ; ret
+0x0019bfcd : add al, byte ptr [0xffff0000] ; add dword ptr [ebx], ecx ; ret
+0x00125d3f : add al, byte ptr [eax] ; add byte ptr [eax], al ; add bl, ch ; ret
+0x00129a69 : add al, byte ptr [eax] ; add byte ptr [eax], al ; add esp, 0xc ; ret
+0x000a7411 : add al, byte ptr [eax] ; add byte ptr [eax], al ; ret
+0x0001f2cf : add al, byte ptr [eax] ; add byte ptr [ebx - 0x76bfdb8c], cl ; ret 0x542b
+0x000c6c4a : add al, byte ptr [eax] ; add byte ptr [ecx], bh ; ret 0x840f
+0x00087497 : add al, byte ptr [eax] ; add byte ptr [edi + 0x5b], bl ; ret
+0x00009f8d : add al, byte ptr [eax] ; add byte ptr [edx], dl ; add byte ptr [eax + eax], cl ; ret 0x11
+0x000c6bf2 : add al, byte ptr [eax] ; add dh, dh ; ret 0xf01
+0x001926ae : add al, byte ptr [eax] ; ret
+0x0016cd9e : add al, byte ptr [eax] ; ret 0xf974
+0x0016c786 : add al, byte ptr [eax] ; ret 0xfff8
+0x0018d444 : add al, byte ptr [ebp + 0x41140e0a] ; ret
+0x0018f067 : add al, byte ptr [ebp + 0xa] ; ret
+0x0017a4b2 : add al, byte ptr [ebp + 0xe] ; add al, 0xc6 ; ret
+0x000ea06a : add al, byte ptr [ebp - 0x7cf68b40] ; ret 0x8904
+0x0012b792 : add al, byte ptr [ebx + 0x5e5b14c4] ; ret
+0x0002f850 : add al, byte ptr [ebx + 0x5f5e01e8] ; ret
+0x0018c0b2 : add al, byte ptr [ebx + 0xa] ; ret
+0x0018ab0e : add al, byte ptr [ebx + 0xe0a6c03] ; add al, 0xc7 ; ret
+0x001875a6 : add al, byte ptr [ebx + 0xe0a7003] ; add al, 0xc7 ; ret
+0x0018a8d2 : add al, byte ptr [ebx + 0xe0a7103] ; add al, 0xc7 ; ret
+0x0018c246 : add al, byte ptr [ebx + 0xe0a7703] ; add al, 0xc6 ; ret
+0x001846de : add al, byte ptr [ebx + 0xe450203] ; add al, 0xc6 ; ret
+0x00185bde : add al, byte ptr [ebx + 0xe500203] ; add al, 0xc6 ; ret
+0x0019595e : add al, byte ptr [ebx + 0xe590203] ; add al, 0xc6 ; ret
+0x0017317e : add al, byte ptr [ebx + 0xe750203] ; add al, 0xc6 ; ret
+0x0017a4ae : add al, byte ptr [ebx + eax*4 + 3] ; add al, byte ptr [ebp + 0xe] ; add al, 0xc6 ; ret
+0x0017aaee : add al, byte ptr [ebx + eax*4 + 3] ; add al, byte ptr [edx + 0xe] ; add al, 0xc6 ; ret
+0x00178a7e : add al, byte ptr [ebx + eax*4 + 3] ; add al, byte ptr [esi + 0xe] ; add al, 0xc6 ; ret
+0x00174502 : add al, byte ptr [ebx + eax*4 + 3] ; add bl, byte ptr [ecx + 0xe] ; add al, 0xc6 ; ret
+0x00178bda : add al, byte ptr [ebx + eax*4 + 3] ; add cl, byte ptr [ebx + 0xe] ; add al, 0xc6 ; ret
+0x00178d1e : add al, byte ptr [ebx + eax*4 + 3] ; add cl, byte ptr [ecx + 0xe] ; add al, 0xc6 ; ret
+0x00189dbe : add al, byte ptr [ebx + eax*4 + 3] ; add dl, byte ptr [edx + 0xe] ; add al, 0xc6 ; ret
+0x00097c76 : add al, byte ptr [ebx - 0x1d3efe3e] ; add al, 1 ; ret 0xff85
+0x000bb20f : add al, byte ptr [ebx - 0x377cfe3f] ; add ch, bl ; ret
+0x000ef12c : add al, byte ptr [ebx - 0x7bf00008] ; ret 0
+0x0017e27a : add al, byte ptr [ecx + 0xa] ; ret
+0x000a8874 : add al, byte ptr [ecx] ; ret 0x3c8d
+0x00171b89 : add al, byte ptr [edx + 0xd] ; add eax, 0x78038341 ; ret
+0x0017aaf2 : add al, byte ptr [edx + 0xe] ; add al, 0xc6 ; ret
+0x00183bb1 : add al, byte ptr [esi + 0x43140e0a] ; ret
+0x00178a82 : add al, byte ptr [esi + 0xe] ; add al, 0xc6 ; ret
+0x0017cf8e : add al, byte ptr [esi + ecx + 4] ; ret
+0x00041017 : add al, ch ; ret
+0x000948af : add al, ch ; ret 0x954
+0x000477ab : add al, ch ; ret 0xe25
+0x00123818 : add al, ch ; ret 0xef36
+0x000eca48 : add al, ch ; ret 0xf76d
+0x0002bf88 : add al, ch ; ret 0xfffa
+0x00079078 : add al, ch ; ret 0xfffc
+0x0018b4e7 : add al, ch ; ret 1
+0x0019b67f : add al, dh ; ret 0xfff8
+0x00009557 : add al, dl ; ret 7
+0x000d6e43 : add bh, ah ; ret
+0x00125d3d : add bh, al ; add al, byte ptr [eax] ; add byte ptr [eax], al ; add bl, ch ; ret
+0x00047fb2 : add bh, al ; add ch, byte ptr [0x83000000] ; ret 0x8904
+0x000b9b72 : add bh, bh ; ret
+0x0019ca6b : add bh, bl ; add eax, 0x1250000 ; add byte ptr [eax], al ; ret
+0x0004c443 : add bh, byte ptr [eax + 1] ; ret
+0x001993b1 : add bh, byte ptr [ebp + 0x43140e0a] ; ret
+0x00175215 : add bh, byte ptr [ebx + 0xe] ; add al, 0xc6 ; ret
+0x00056a6f : add bh, byte ptr [ecx] ; ret 0x1974
+0x0004948b : add bh, byte ptr [ecx] ; ret 0x8e0f
+0x00185c02 : add bh, byte ptr [edi + 0xe] ; add al, 0xc6 ; ret
+0x00171775 : add bh, byte ptr [edx + 0x43140e0a] ; ret
+0x0016fedd : add bh, byte ptr [esi + 0x41140e0a] ; ret
+0x001802a3 : add bh, byte ptr [esi + ecx + 4] ; ret
+0x00095b95 : add bh, dh ; ret 0x3f
+0x00133228 : add bh, dh ; ret 0xf
+0x0007c421 : add bh, dh ; ret 3
+0x0019c8cf : add bl, al ; add eax, 0x7640000 ; add byte ptr [eax], al ; ret 2
+0x0018f118 : add bl, byte ptr [eax + 0x41140e0a] ; ret
+0x00173f14 : add bl, byte ptr [eax + 0xa] ; ret
+0x0019752a : add bl, byte ptr [eax + 0xe] ; add al, 0xc6 ; ret
+0x0019a815 : add bl, byte ptr [ebx + 0xe] ; add al, 0xc6 ; ret
+0x0019811f : add bl, byte ptr [ebx - 0x3938fbf2] ; ret
+0x00187700 : add bl, byte ptr [ecx + 0xa] ; ret
+0x00174506 : add bl, byte ptr [ecx + 0xe] ; add al, 0xc6 ; ret
+0x0018bb4b : add bl, byte ptr [edi + 0x41140e0a] ; ret
+0x0018a1f4 : add bl, byte ptr [edi + 0xa] ; ret
+0x0018de95 : add bl, byte ptr [edx + 0xe] ; add al, 0xc6 ; ret
+0x00174225 : add bl, byte ptr [edx + ecx + 0xe] ; add al, 0xc6 ; ret
+0x00189c48 : add bl, byte ptr [esi + 0xa] ; ret
+0x0017f1e1 : add bl, byte ptr [esi + ecx + 4] ; ret
+0x00176f9a : add bl, byte ptr [esi + ecx - 0x39383afc] ; ret
+0x0014a137 : add bl, byte ptr [esi - 0x7d] ; ret 0x8308
+0x0001ba65 : add bl, ch ; ret
+0x000a7a2e : add bl, ch ; ret 0xb48d
+0x000662cf : add bl, dh ; ret
+0x0006a015 : add byte ptr [0x200], ah ; ret
+0x0000713b : add byte ptr [0x22000000], dl ; add byte ptr [eax + eax], cl ; ret
+0x00040dd0 : add byte ptr [0x28c48300], 0x5b ; ret
+0x000003c5 : add byte ptr [0x62082008], 0 ; ret 0x224
+0x00069fe5 : add byte ptr [0x804], ah ; ret
+0x0009baf1 : add byte ptr [0x9fd8300], 0x89 ; ret 0x870f
+0x0000583b : add byte ptr [eax + 0x22000001], bl ; add byte ptr [eax + eax], cl ; ret
+0x000b906a : add byte ptr [eax + 0x26748d], dl ; ret
+0x0016faaf : add byte ptr [eax + 0x3c000008], dh ; ret
+0x000b9aa7 : add byte ptr [eax + 0x40], bh ; ret
+0x0008dc8f : add byte ptr [eax + 0x5b5e5f17], cl ; ret
+0x0003f79f : add byte ptr [eax + 0x742fff78], al ; ret 0xe883
+0x0019b69f : add byte ptr [eax + 0x7c0002c4], ah ; ret
+0x000e3c36 : add byte ptr [eax + 1], bh ; add esp, 0x1c ; ret
+0x00022f8f : add byte ptr [eax + 1], bh ; ret
+0x00129a67 : add byte ptr [eax + 2], bh ; add esp, 0xc ; ret
+0x000a740f : add byte ptr [eax + 2], bh ; ret
+0x000a741f : add byte ptr [eax + 3], bh ; ret
+0x000a742f : add byte ptr [eax + 4], bh ; ret
+0x0019da9f : add byte ptr [eax + 5], al ; add byte ptr [eax], al ; add byte ptr [eax], al ; add byte ptr [eax], al ; ret 3
+0x000a743f : add byte ptr [eax + 5], bh ; ret
+0x000a744f : add byte ptr [eax + 6], bh ; ret
+0x000a745f : add byte ptr [eax + 7], bh ; ret
+0x00129a57 : add byte ptr [eax + 8], bh ; add esp, 0xc ; ret
+0x000f3e0b : add byte ptr [eax + eax], al ; add byte ptr [ecx - 0x617dbfc], cl ; ret 0
+0x0017ba0f : add byte ptr [eax + eax], ch ; add byte ptr [eax], al ; ret
+0x00005841 : add byte ptr [eax + eax], cl ; ret
+0x00009f81 : add byte ptr [eax + eax], cl ; ret 0x11
+0x00009441 : add byte ptr [eax + eax], cl ; ret 0x38
+0x00004231 : add byte ptr [eax + eax], cl ; ret 0x52
+0x0000c701 : add byte ptr [eax + eax], cl ; ret 0x59
+0x00007aa1 : add byte ptr [eax + eax], cl ; ret 0xc
+0x00006101 : add byte ptr [eax + eax], cl ; ret 3
+0x0000b5a1 : add byte ptr [eax + eax], cl ; ret 8
+0x0002aab8 : add byte ptr [eax + ecx - 0x77], dh ; ret 0xc8d
+0x000f975a : add byte ptr [eax - 0x158b7f80], 0x89 ; ret 0xeac1
+0x0000b127 : add byte ptr [eax - 0x18], dh ; add eax, dword ptr [eax] ; ret
+0x000ed297 : add byte ptr [eax - 0x76d00088], al ; ret 0xe74
+0x000fdc74 : add byte ptr [eax - 0x7bf0ffc2], al ; ret 0xfff9
+0x000f7ea0 : add byte ptr [eax - 0x7bf0ffc8], al ; ret
+0x0000098a : add byte ptr [eax - 0x7c], dh ; add byte ptr [eax], al ; ret 0x1010
+0x00083e65 : add byte ptr [eax - 0x7d], dh ; ret 0x8304
+0x0002c8bc : add byte ptr [eax - 1], bh ; add esp, 0x1c ; ret
+0x000ddfe7 : add byte ptr [eax - 1], bh ; add esp, 0xc ; ret
+0x000ddf4b : add byte ptr [eax - 1], bh ; add esp, 8 ; ret
+0x0002ebc7 : add byte ptr [eax - 1], bh ; ret
+0x00026e5e : add byte ptr [eax], 0 ; ret
+0x0018b42b : add byte ptr [eax], ah ; add byte ptr [eax], al ; add byte ptr [eax], dh ; ret 1
+0x00026edd : add byte ptr [eax], ah ; add byte ptr [eax], al ; ret
+0x0016ac8f : add byte ptr [eax], ah ; ret 0xfff4
+0x0017ba71 : add byte ptr [eax], al ; add ah, al ; ret
+0x0017baa1 : add byte ptr [eax], al ; add ah, dh ; ret
+0x0017b981 : add byte ptr [eax], al ; add ah, dl ; ret 0
+0x0019d89a : add byte ptr [eax], al ; add al, 5 ; add byte ptr [eax], al ; ret
+0x0018b5dd : add byte ptr [eax], al ; add al, ah ; ret
+0x0019b5bd : add byte ptr [eax], al ; add al, al ; ret
+0x00041015 : add byte ptr [eax], al ; add al, ch ; ret
+0x000948ad : add byte ptr [eax], al ; add al, ch ; ret 0x954
+0x00123816 : add byte ptr [eax], al ; add al, ch ; ret 0xef36
+0x000eca46 : add byte ptr [eax], al ; add al, ch ; ret 0xf76d
+0x0002bf86 : add byte ptr [eax], al ; add al, ch ; ret 0xfffa
+0x0018b4e5 : add byte ptr [eax], al ; add al, ch ; ret 1
+0x00095b93 : add byte ptr [eax], al ; add bh, dh ; ret 0x3f
+0x000d7060 : add byte ptr [eax], al ; add bl, ch ; ret
+0x000a7a2c : add byte ptr [eax], al ; add bl, ch ; ret 0xb48d
+0x00072814 : add byte ptr [eax], al ; add bl, dh ; ret
+0x000b9068 : add byte ptr [eax], al ; add byte ptr [eax + 0x26748d], dl ; ret
+0x0016faad : add byte ptr [eax], al ; add byte ptr [eax + 0x3c000008], dh ; ret
+0x000b9aa5 : add byte ptr [eax], al ; add byte ptr [eax + 0x40], bh ; ret
+0x0008dc8d : add byte ptr [eax], al ; add byte ptr [eax + 0x5b5e5f17], cl ; ret
+0x0003f79d : add byte ptr [eax], al ; add byte ptr [eax + 0x742fff78], al ; ret 0xe883
+0x0019b69d : add byte ptr [eax], al ; add byte ptr [eax + 0x7c0002c4], ah ; ret
+0x0007c2f5 : add byte ptr [eax], al ; add byte ptr [eax + 1], bh ; ret
+0x000a740d : add byte ptr [eax], al ; add byte ptr [eax + 2], bh ; ret
+0x000a741d : add byte ptr [eax], al ; add byte ptr [eax + 3], bh ; ret
+0x000a742d : add byte ptr [eax], al ; add byte ptr [eax + 4], bh ; ret
+0x000a743d : add byte ptr [eax], al ; add byte ptr [eax + 5], bh ; ret
+0x000a744d : add byte ptr [eax], al ; add byte ptr [eax + 6], bh ; ret
+0x000a745d : add byte ptr [eax], al ; add byte ptr [eax + 7], bh ; ret
+0x0002aab6 : add byte ptr [eax], al ; add byte ptr [eax + ecx - 0x77], dh ; ret 0xc8d
+0x000f7e9e : add byte ptr [eax], al ; add byte ptr [eax - 0x7bf0ffc8], al ; ret
+0x0002ebc5 : add byte ptr [eax], al ; add byte ptr [eax - 1], bh ; ret
+0x0019d898 : add byte ptr [eax], al ; add byte ptr [eax], al ; add al, 5 ; add byte ptr [eax], al ; ret
+0x00073543 : add byte ptr [eax], al ; add byte ptr [eax], al ; add byte ptr [eax], al ; ret
+0x0014f862 : add byte ptr [eax], al ; add byte ptr [eax], al ; add byte ptr [eax], al ; ret 0x24
+0x0014fd52 : add byte ptr [eax], al ; add byte ptr [eax], al ; add byte ptr [eax], al ; ret 0x33
+0x00000448 : add byte ptr [eax], al ; add byte ptr [eax], al ; add byte ptr [eax], al ; ret 0x3e00
+0x0019daa2 : add byte ptr [eax], al ; add byte ptr [eax], al ; add byte ptr [eax], al ; ret 3
+0x0000158a : add byte ptr [eax], al ; add byte ptr [eax], al ; add byte ptr [eax], al ; ret 6
+0x0019dc62 : add byte ptr [eax], al ; add byte ptr [eax], al ; add byte ptr [eax], al ; ret 8
+0x00074029 : add byte ptr [eax], al ; add byte ptr [eax], al ; add byte ptr [ebx + 0x5e], bl ; ret
+0x000a9a29 : add byte ptr [eax], al ; add byte ptr [eax], al ; add byte ptr [ecx], al ; ret 0x9389
+0x0019eadf : add byte ptr [eax], al ; add byte ptr [eax], al ; add byte ptr [esi + eax], ch ; add byte ptr [eax], al ; ret
+0x001470cc : add byte ptr [eax], al ; add byte ptr [eax], al ; add eax, 1 ; ret
+0x000a73dc : add byte ptr [eax], al ; add byte ptr [eax], al ; add eax, 3 ; ret
+0x0006bf83 : add byte ptr [eax], al ; add byte ptr [eax], al ; add esp, 0x1c ; ret
+0x000d8435 : add byte ptr [eax], al ; add byte ptr [eax], al ; add esp, 8 ; ret
+0x00019b64 : add byte ptr [eax], al ; add byte ptr [eax], al ; ret
+0x0015085c : add byte ptr [eax], al ; add byte ptr [eax], al ; ret 0x1d4
+0x00150ff4 : add byte ptr [eax], al ; add byte ptr [eax], al ; ret 0x1d5
+0x0014f864 : add byte ptr [eax], al ; add byte ptr [eax], al ; ret 0x24
+0x0014fd54 : add byte ptr [eax], al ; add byte ptr [eax], al ; ret 0x33
+0x0000044a : add byte ptr [eax], al ; add byte ptr [eax], al ; ret 0x3e00
+0x0019daa4 : add byte ptr [eax], al ; add byte ptr [eax], al ; ret 3
+0x0000158c : add byte ptr [eax], al ; add byte ptr [eax], al ; ret 6
+0x0019dc64 : add byte ptr [eax], al ; add byte ptr [eax], al ; ret 8
+0x0013837d : add byte ptr [eax], al ; add byte ptr [eax], bh ; ret 0x840f
+0x0018b42d : add byte ptr [eax], al ; add byte ptr [eax], dh ; ret 1
+0x0001bd22 : add byte ptr [eax], al ; add byte ptr [ebp + 0x6b2674d2], al ; ret 0x893c
+0x000da96d : add byte ptr [eax], al ; add byte ptr [ebp + ecx - 0x7d], dh ; ret 0x8901
+0x000b9a62 : add byte ptr [eax], al ; add byte ptr [ebp - 0x2f], dh ; ret
+0x000ce9dd : add byte ptr [eax], al ; add byte ptr [ebp - 0x76d38740], al ; ret 0x4e8b
+0x000ff0dd : add byte ptr [eax], al ; add byte ptr [ebp - 0x77], dl ; ret 0x5657
+0x00087a4d : add byte ptr [eax], al ; add byte ptr [ebp - 0x7cc78a40], al ; ret
+0x000d0b65 : add byte ptr [eax], al ; add byte ptr [ebp - 0x7ceb8b2e], al ; ret 0x8d04
+0x0004b2c2 : add byte ptr [eax], al ; add byte ptr [ebx + 0x1682454], cl ; ret 0x5489
+0x000d9346 : add byte ptr [eax], al ; add byte ptr [ebx + 0x27602fa], al ; ret
+0x000bcb34 : add byte ptr [eax], al ; add byte ptr [ebx + 0x440f01c0], al ; ret 0xe289
+0x0007ad81 : add byte ptr [eax], al ; add byte ptr [ebx + 0x440ffff8], al ; ret 0xc483
+0x00103737 : add byte ptr [eax], al ; add byte ptr [ebx + 0x5d5b14c4], al ; ret
+0x0007af9d : add byte ptr [eax], al ; add byte ptr [ebx + 0x5e5b04c4], al ; ret
+0x0003f765 : add byte ptr [eax], al ; add byte ptr [ebx + 0x5e5b14c4], al ; ret
+0x0012e630 : add byte ptr [eax], al ; add byte ptr [ebx + 0x5e5b24c4], al ; ret
+0x00055c45 : add byte ptr [eax], al ; add byte ptr [ebx + 0x5e], bl ; ret
+0x0014909d : add byte ptr [eax], al ; add byte ptr [ebx + 0x5f0c2444], cl ; ret
+0x00127945 : add byte ptr [eax], al ; add byte ptr [ebx + 0xcc48302], cl ; ret
+0x000d25fe : add byte ptr [eax], al ; add byte ptr [ebx - 0x76abdbbc], cl ; ret 0xc283
+0x000dc0da : add byte ptr [eax], al ; add byte ptr [ebx - 0x76d3db94], cl ; ret 0x748b
+0x000205be : add byte ptr [eax], al ; add byte ptr [ebx - 0x7af07f39], al ; ret 3
+0x00149140 : add byte ptr [eax], al ; add byte ptr [ebx - 0x7bf0fc01], al ; ret 0
+0x000d50c4 : add byte ptr [eax], al ; add byte ptr [ebx - 0x7ccfdbbc], cl ; ret 0xc740
+0x001295f0 : add byte ptr [eax], al ; add byte ptr [ebx - 0x7cebdbbc], cl ; ret 0x8b04
+0x000e6f85 : add byte ptr [eax], al ; add byte ptr [ebx - 0x7cfe1bbb], al ; ret 0x8b08
+0x0003f950 : add byte ptr [eax], al ; add byte ptr [ebx - 0x7f], bl ; ret
+0x0006b946 : add byte ptr [eax], al ; add byte ptr [ecx + 0x1fe82434], cl ; ret
+0x0006ba35 : add byte ptr [eax], al ; add byte ptr [ecx + 0x30e82434], cl ; ret 0xffff
+0x0006ba15 : add byte ptr [eax], al ; add byte ptr [ecx + 0x50e82434], cl ; ret 0xffff
+0x0008dcbd : add byte ptr [eax], al ; add byte ptr [ecx + 0x5b5e5f17], cl ; ret
+0x000f5c43 : add byte ptr [eax], al ; add byte ptr [ecx + 0x72e82434], cl ; ret
+0x0006455d : add byte ptr [eax], al ; add byte ptr [ecx + 0x78e82434], cl ; ret 0
+0x00053671 : add byte ptr [eax], al ; add byte ptr [ecx - 0x17fbdbbc], cl ; ret
+0x000ea672 : add byte ptr [eax], al ; add byte ptr [ecx - 0x17fbdbbc], cl ; ret 0x5f
+0x000d3b0f : add byte ptr [eax], al ; add byte ptr [ecx - 0x2744722a], cl ; ret
+0x000d3dfa : add byte ptr [eax], al ; add byte ptr [ecx - 0x2844722a], cl ; ret
+0x000d3ce4 : add byte ptr [eax], al ; add byte ptr [ecx - 0x2e44722a], cl ; ret
+0x000d3c57 : add byte ptr [eax], al ; add byte ptr [ecx - 0x3444722a], cl ; ret
+0x000d3bae : add byte ptr [eax], al ; add byte ptr [ecx - 0x3a44722a], cl ; ret
+0x000d3a43 : add byte ptr [eax], al ; add byte ptr [ecx - 0x4044722a], cl ; ret
+0x000d39e2 : add byte ptr [eax], al ; add byte ptr [ecx - 0x4644722a], cl ; ret
+0x000d3a32 : add byte ptr [eax], al ; add byte ptr [ecx - 0x5244722a], cl ; ret
+0x000d3935 : add byte ptr [eax], al ; add byte ptr [ecx - 0x5844722a], cl ; ret
+0x000d3afe : add byte ptr [eax], al ; add byte ptr [ecx - 0x5e44722a], cl ; ret
+0x000f5c26 : add byte ptr [eax], al ; add byte ptr [ecx - 0x7017dbcc], cl ; ret
+0x0003f77d : add byte ptr [eax], al ; add byte ptr [ecx - 0x761b1410], cl ; ret 0x9066
+0x00063cd5 : add byte ptr [eax], al ; add byte ptr [ecx - 0x76bfdbbc], cl ; ret 0xfe9
+0x000d6317 : add byte ptr [eax], al ; add byte ptr [ecx - 0x76d7dbac], cl ; ret 0xac8b
+0x000e0d01 : add byte ptr [eax], al ; add byte ptr [ecx - 0x76e3dba4], cl ; ret
+0x0006d3e9 : add byte ptr [eax], al ; add byte ptr [ecx - 0x7cf174c6], cl ; ret 0x8904
+0x0011bc79 : add byte ptr [eax], al ; add byte ptr [ecx - 0x7cf5740e], cl ; ret 0x8d04
+0x0005b86f : add byte ptr [eax], al ; add byte ptr [ecx - 0x917dbfc], cl ; ret
+0x0007cfa6 : add byte ptr [eax], al ; add byte ptr [ecx], ah ; ret 0x2474
+0x000a9a2b : add byte ptr [eax], al ; add byte ptr [ecx], al ; ret 0x9389
+0x000431ca : add byte ptr [eax], al ; add byte ptr [ecx], al ; ret 0x9589
+0x000d5d08 : add byte ptr [eax], al ; add byte ptr [ecx], al ; ret 0xb48b
+0x000c322f : add byte ptr [eax], al ; add byte ptr [ecx], al ; ret 0xc083
+0x0006de25 : add byte ptr [eax], al ; add byte ptr [ecx], al ; ret 0xc101
+0x0006a35c : add byte ptr [eax], al ; add byte ptr [ecx], al ; ret 0xd8f7
+0x0006fcaf : add byte ptr [eax], al ; add byte ptr [ecx], bh ; ret 0x870f
+0x000fc227 : add byte ptr [eax], al ; add byte ptr [ecx], bh ; ret 0xf75
+0x000d529b : add byte ptr [eax], al ; add byte ptr [ecx], ch ; ret 0x28b
+0x0012bb25 : add byte ptr [eax], al ; add byte ptr [ecx], ch ; ret 0x5489
+0x00038463 : add byte ptr [eax], al ; add byte ptr [ecx], ch ; ret 0x848d
+0x0007435d : add byte ptr [eax], al ; add byte ptr [ecx], ch ; ret 0x933b
+0x000e6aa1 : add byte ptr [eax], al ; add byte ptr [ecx], ch ; ret 0xd089
+0x000c31a9 : add byte ptr [eax], al ; add byte ptr [ecx], ch ; ret 0xd501
+0x000807ea : add byte ptr [eax], al ; add byte ptr [ecx], ch ; ret 0xd601
+0x000cd5e4 : add byte ptr [eax], al ; add byte ptr [ecx], ch ; ret 0xd701
+0x0006c70b : add byte ptr [eax], al ; add byte ptr [ecx], ch ; ret 0xe0c1
+0x001268cd : add byte ptr [eax], al ; add byte ptr [edi + 0x5d], bl ; ret
+0x000a7104 : add byte ptr [eax], al ; add byte ptr [edi + 0x5e], bl ; ret
+0x000c5b3f : add byte ptr [eax], al ; add byte ptr [edi + 0x5fd8f7fb], al ; ret
+0x0007c430 : add byte ptr [eax], al ; add byte ptr [edx - 9], al ; ret 3
+0x0000713d : add byte ptr [eax], al ; add byte ptr [edx], ah ; add byte ptr [eax + eax], cl ; ret
+0x000060fd : add byte ptr [eax], al ; add byte ptr [edx], ah ; add byte ptr [eax + eax], cl ; ret 3
+0x0000c3ed : add byte ptr [eax], al ; add byte ptr [edx], dl ; add byte ptr [eax + eax], cl ; ret
+0x00009f7d : add byte ptr [eax], al ; add byte ptr [edx], dl ; add byte ptr [eax + eax], cl ; ret 0x11
+0x0000943d : add byte ptr [eax], al ; add byte ptr [edx], dl ; add byte ptr [eax + eax], cl ; ret 0x38
+0x0000422d : add byte ptr [eax], al ; add byte ptr [edx], dl ; add byte ptr [eax + eax], cl ; ret 0x52
+0x0000c6fd : add byte ptr [eax], al ; add byte ptr [edx], dl ; add byte ptr [eax + eax], cl ; ret 0x59
+0x00007a9d : add byte ptr [eax], al ; add byte ptr [edx], dl ; add byte ptr [eax + eax], cl ; ret 0xc
+0x0002f570 : add byte ptr [eax], al ; add byte ptr [esi + 0x5f], bl ; ret
+0x0019eae1 : add byte ptr [eax], al ; add byte ptr [esi + eax], ch ; add byte ptr [eax], al ; ret
+0x000d8a16 : add byte ptr [eax], al ; add byte ptr [esi - 9], ah ; ret 0xff80
+0x0019b679 : add byte ptr [eax], al ; add byte ptr [esp + eax*8 + 2], bh ; add al, dh ; ret 0xfff8
+0x00023189 : add byte ptr [eax], al ; add cl, al ; ret 0x8909
+0x00034a0c : add byte ptr [eax], al ; add cl, ch ; ret
+0x000967d5 : add byte ptr [eax], al ; add cl, ch ; ret 0xfffc
+0x000f8755 : add byte ptr [eax], al ; add cl, ch ; ret 0xfffd
+0x000dc01e : add byte ptr [eax], al ; add cl, ch ; ret 0xfffe
+0x0014685b : add byte ptr [eax], al ; add dh, dh ; ret 0x7501
+0x0008f8bd : add byte ptr [eax], al ; add dh, dh ; ret 0x7510
+0x0002e9c2 : add byte ptr [eax], al ; add dh, dh ; ret 0x8901
+0x000c745d : add byte ptr [eax], al ; add dh, dh ; ret 0xc740
+0x0002c691 : add byte ptr [eax], al ; add dh, dh ; ret 0xf02
+0x00148f3c : add byte ptr [eax], al ; add dh, dh ; ret 0xf04
+0x001498cf : add byte ptr [eax], al ; add dh, dh ; ret 0xf0f
+0x00148e3d : add byte ptr [eax], al ; add dh, dh ; ret 0xf10
+0x00148f66 : add byte ptr [eax], al ; add dh, dh ; ret 0xf20
+0x00148f6f : add byte ptr [eax], al ; add dh, dh ; ret 0xf40
+0x0004c6f5 : add byte ptr [eax], al ; add dh, dh ; ret 0xf80
+0x00159486 : add byte ptr [eax], al ; add dword ptr [0x73950000], ecx ; ret 0x48
+0x0006aa17 : add byte ptr [eax], al ; add dword ptr [ebp + 2], esi ; ret
+0x00129693 : add byte ptr [eax], al ; add dword ptr [ecx], eax ; ret 0x5489
+0x001470ce : add byte ptr [eax], al ; add eax, 1 ; ret
+0x000a73de : add byte ptr [eax], al ; add eax, 3 ; ret
+0x000dfed8 : add byte ptr [eax], al ; add esp, 0x101c ; ret
+0x00054e01 : add byte ptr [eax], al ; add esp, 0x102c ; ret
+0x00054b03 : add byte ptr [eax], al ; add esp, 0x103c ; ret
+0x000aae4e : add byte ptr [eax], al ; add esp, 0x10c ; ret
+0x000e113b : add byte ptr [eax], al ; add esp, 0x11c ; ret
+0x00069302 : add byte ptr [eax], al ; add esp, 0x12c ; ret
+0x0002e040 : add byte ptr [eax], al ; add esp, 0x130 ; ret
+0x0002ddd7 : add byte ptr [eax], al ; add esp, 0x13c ; ret
+0x0002ec65 : add byte ptr [eax], al ; add esp, 0x14c ; ret
+0x000b9e14 : add byte ptr [eax], al ; add esp, 0x16c ; ret
+0x000e7e07 : add byte ptr [eax], al ; add esp, 0x1ac ; ret
+0x000e7d18 : add byte ptr [eax], al ; add esp, 0x1bc ; ret
+0x000311e5 : add byte ptr [eax], al ; add esp, 0x1c ; ret
+0x0002f3c0 : add byte ptr [eax], al ; add esp, 0x25c ; ret
+0x0006b29f : add byte ptr [eax], al ; add esp, 0x29c ; ret
+0x000b3dcd : add byte ptr [eax], al ; add esp, 0x2c ; ret
+0x000ddbd0 : add byte ptr [eax], al ; add esp, 0x3c ; ret
+0x000547e7 : add byte ptr [eax], al ; add esp, 0x43c ; ret
+0x001195a1 : add byte ptr [eax], al ; add esp, 0x45c ; ret
+0x00115664 : add byte ptr [eax], al ; add esp, 0x48c ; ret
+0x000d953f : add byte ptr [eax], al ; add esp, 0x54c ; ret
+0x0005ba0a : add byte ptr [eax], al ; add esp, 0x81bc ; ret
+0x000196e2 : add byte ptr [eax], al ; add esp, 0x8c ; ret
+0x00023324 : add byte ptr [eax], al ; add esp, 0x9c ; ret
+0x000e3cee : add byte ptr [eax], al ; add esp, 0x9c ; ret 4
+0x0002e851 : add byte ptr [eax], al ; add esp, 0xac ; ret
+0x000e1732 : add byte ptr [eax], al ; add esp, 0xbc ; ret 8
+0x00129a4f : add byte ptr [eax], al ; add esp, 0xc ; ret
+0x000672d8 : add byte ptr [eax], al ; add esp, 0xcc ; ret
+0x0006d7cf : add byte ptr [eax], al ; add esp, 0xdc ; ret
+0x00068f5a : add byte ptr [eax], al ; add esp, 0xec ; ret
+0x000de48a : add byte ptr [eax], al ; add esp, 0xfc ; ret
+0x000d8437 : add byte ptr [eax], al ; add esp, 8 ; ret
+0x00000cf2 : add byte ptr [eax], al ; ret
+0x0014c706 : add byte ptr [eax], al ; ret 0
+0x0000098d : add byte ptr [eax], al ; ret 0x1010
+0x00152dc6 : add byte ptr [eax], al ; ret 0x12
+0x0015085e : add byte ptr [eax], al ; ret 0x1d4
+0x00150ff6 : add byte ptr [eax], al ; ret 0x1d5
+0x0014f866 : add byte ptr [eax], al ; ret 0x24
+0x0014fd56 : add byte ptr [eax], al ; ret 0x33
+0x0000044c : add byte ptr [eax], al ; ret 0x3e00
+0x001525c6 : add byte ptr [eax], al ; ret 0xc
+0x00177466 : add byte ptr [eax], al ; ret 0xef13
+0x00177c2e : add byte ptr [eax], al ; ret 0xef21
+0x00179f92 : add byte ptr [eax], al ; ret 0xef95
+0x0017b056 : add byte ptr [eax], al ; ret 0xeff8
+0x00168ffe : add byte ptr [eax], al ; ret 0xeffa
+0x001529c6 : add byte ptr [eax], al ; ret 0xf
+0x001691ce : add byte ptr [eax], al ; ret 0xf012
+0x0014dc82 : add byte ptr [eax], al ; ret 1
+0x00000ebe : add byte ptr [eax], al ; ret 2
+0x0014e082 : add byte ptr [eax], al ; ret 3
+0x0000122a : add byte ptr [eax], al ; ret 4
+0x000013e6 : add byte ptr [eax], al ; ret 5
+0x0000158e : add byte ptr [eax], al ; ret 6
+0x00001732 : add byte ptr [eax], al ; ret 7
+0x000018c2 : add byte ptr [eax], al ; ret 8
+0x0014ec82 : add byte ptr [eax], al ; ret 9
+0x0013837f : add byte ptr [eax], bh ; ret 0x840f
+0x0018b4e3 : add byte ptr [eax], ch ; add byte ptr [eax], al ; add al, ch ; ret 1
+0x00026dfd : add byte ptr [eax], cl ; add byte ptr [eax], al ; ret
+0x00009df7 : add byte ptr [eax], dh ; ret
+0x0018b42f : add byte ptr [eax], dh ; ret 1
+0x0018b5db : add byte ptr [eax], dl ; add byte ptr [eax], al ; add al, ah ; ret
+0x00026f3d : add byte ptr [eax], dl ; add byte ptr [eax], al ; ret
+0x000081a7 : add byte ptr [eax], dl ; ret
+0x00006ac7 : add byte ptr [eax], dl ; ret 0x12
+0x00073418 : add byte ptr [ebp + 0x27bc], cl ; add byte ptr [eax], al ; ret
+0x0001bd24 : add byte ptr [ebp + 0x6b2674d2], al ; ret 0x893c
+0x0014ab69 : add byte ptr [ebp + 0xb6], cl ; add bl, dh ; ret
+0x00147069 : add byte ptr [ebp + 0xbf], cl ; add dh, dh ; ret 0x7510
+0x000da96f : add byte ptr [ebp + ecx - 0x7d], dh ; ret 0x8901
+0x000b9a64 : add byte ptr [ebp - 0x2f], dh ; ret
+0x000ce9df : add byte ptr [ebp - 0x76d38740], al ; ret 0x4e8b
+0x000cf71b : add byte ptr [ebp - 0x76ffd98c], cl ; ret 0x448d
+0x000ff0df : add byte ptr [ebp - 0x77], dl ; ret 0x5657
+0x00087a4f : add byte ptr [ebp - 0x7cc78a40], al ; ret
+0x000d0b67 : add byte ptr [ebp - 0x7ceb8b2e], al ; ret 0x8d04
+0x00035cd6 : add byte ptr [ebp - 0x9ea8a40], al ; ret 0x7501
+0x0007313f : add byte ptr [ebp - 0xc0b8a40], al ; ret
+0x00080228 : add byte ptr [ebx + 0x1242454], cl ; ret 0x442b
+0x000ad416 : add byte ptr [ebx + 0x12c246c], cl ; ret 0x48d
+0x0004b2c4 : add byte ptr [ebx + 0x1682454], cl ; ret 0x5489
+0x000060fb : add byte ptr [ebx + 0x22000000], dl ; add byte ptr [eax + eax], cl ; ret 3
+0x000d9348 : add byte ptr [ebx + 0x27602fa], al ; ret
+0x00096b34 : add byte ptr [ebx + 0x29202454], cl ; ret 0xc083
+0x0003058d : add byte ptr [ebx + 0x293c2454], cl ; ret 0x5489
+0x000a5650 : add byte ptr [ebx + 0x391c2454], cl ; ret 0xcf74
+0x000bcb36 : add byte ptr [ebx + 0x440f01c0], al ; ret 0xe289
+0x0007ad83 : add byte ptr [ebx + 0x440ffff8], al ; ret 0xc483
+0x0012b327 : add byte ptr [ebx + 0x452b0845], cl ; add al, 0x89 ; ret 0xfac1
+0x00066a7f : add byte ptr [ebx + 0x462b0846], cl ; add al, 0x89 ; ret 0xfac1
+0x00023be3 : add byte ptr [ebx + 0x58408b00], cl ; ret
+0x00103739 : add byte ptr [ebx + 0x5d5b14c4], al ; ret
+0x00091637 : add byte ptr [ebx + 0x5e082444], cl ; ret
+0x0007af9f : add byte ptr [ebx + 0x5e5b04c4], al ; ret
+0x0003f767 : add byte ptr [ebx + 0x5e5b14c4], al ; ret
+0x0012e632 : add byte ptr [ebx + 0x5e5b24c4], al ; ret
+0x00055c47 : add byte ptr [ebx + 0x5e], bl ; ret
+0x0014909f : add byte ptr [ebx + 0x5f0c2444], cl ; ret
+0x001278f2 : add byte ptr [ebx + 0x5f5e24c4], al ; ret
+0x00127947 : add byte ptr [ebx + 0xcc48302], cl ; ret
+0x0019df9b : add byte ptr [ebx + 2], al ; add byte ptr [eax], al ; add byte ptr [eax], al ; add byte ptr [eax], al ; ret
+0x0019c8cb : add byte ptr [ebx + eax], ah ; add byte ptr [eax], al ; ret
+0x00019eba : add byte ptr [ebx - 0x2508bb3c], al ; ret
+0x0001934d : add byte ptr [ebx - 0x3d], bl ; ret
+0x0003f1d9 : add byte ptr [ebx - 0x3f7c7fbb], cl ; add dword ptr [ecx], edi ; ret 0x870f
+0x0006c366 : add byte ptr [ebx - 0x6bf00002], al ; ret 0x7c89
+0x0004b4f4 : add byte ptr [ebx - 0x6bf0fe40], al ; ret 0x25e9
+0x0004c3c4 : add byte ptr [ebx - 0x6bf0fe40], al ; ret 0x3ce9
+0x0004b594 : add byte ptr [ebx - 0x6bf0fe40], al ; ret 0x50e9
+0x0004c3ad : add byte ptr [ebx - 0x6bf0fe40], al ; ret 0x53e9
+0x00049c86 : add byte ptr [ebx - 0x6bf0fe40], al ; ret 0x73e9
+0x0004c40c : add byte ptr [ebx - 0x6bf0fe40], al ; ret 0x7de9
+0x0004c3f2 : add byte ptr [ebx - 0x6bf0fe40], al ; ret 0x97e9
+0x000497a0 : add byte ptr [ebx - 0x6bf0fe40], al ; ret 0xc5eb
+0x00107d6b : add byte ptr [ebx - 0x71f0ff08], al ; ret
+0x000d2600 : add byte ptr [ebx - 0x76abdbbc], cl ; ret 0xc283
+0x0009f31a : add byte ptr [ebx - 0x76b3dbbc], cl ; ret 0xfac1
+0x00039bae : add byte ptr [ebx - 0x76b7dbbc], cl ; ret 0xfac1
+0x0001f2d1 : add byte ptr [ebx - 0x76bfdb8c], cl ; ret 0x542b
+0x00036d9b : add byte ptr [ebx - 0x76bfdbbc], cl ; ret 0xfac1
+0x0002b163 : add byte ptr [ebx - 0x76c7dbb4], cl ; ret 0x448b
+0x000dc0dc : add byte ptr [ebx - 0x76d3db94], cl ; ret 0x748b
+0x000a7b24 : add byte ptr [ebx - 0x76dfdba4], cl ; ret 0x7c8b
+0x000a3daf : add byte ptr [ebx - 0x76efdb84], cl ; ret 0xff25
+0x00148ce4 : add byte ptr [ebx - 0x79f0bf11], al ; ret 1
+0x000205c0 : add byte ptr [ebx - 0x7af07f39], al ; ret 3
+0x0005d333 : add byte ptr [ebx - 0x7af0cf02], al ; ret 0x18
+0x00045400 : add byte ptr [ebx - 0x7af0fe40], al ; ret 0xfffd
+0x00041f1b : add byte ptr [ebx - 0x7bf0ef03], al ; ret
+0x00131fe4 : add byte ptr [ebx - 0x7bf0fb03], al ; ret
+0x00149142 : add byte ptr [ebx - 0x7bf0fc01], al ; ret 0
+0x00131a83 : add byte ptr [ebx - 0x7bf0ff07], al ; ret
+0x000d12fc : add byte ptr [ebx - 0x7cbfdbb4], cl ; ret 0x8510
+0x0001e13b : add byte ptr [ebx - 0x7ccfdbac], cl ; ret 0x3904
+0x000d50c6 : add byte ptr [ebx - 0x7ccfdbbc], cl ; ret 0xc740
+0x000dd1cf : add byte ptr [ebx - 0x7cd7dbbc], cl ; ret 0x8b01
+0x001295f2 : add byte ptr [ebx - 0x7cebdbbc], cl ; ret 0x8b04
+0x00080f6a : add byte ptr [ebx - 0x7cf3dbac], cl ; ret 0x8501
+0x000e6f87 : add byte ptr [ebx - 0x7cfe1bbb], al ; ret 0x8b08
+0x0003f952 : add byte ptr [ebx - 0x7f], bl ; ret
+0x000e5def : add byte ptr [ebx - 0x8f7dbb4], cl ; ret 0xeff0
+0x000e5e4f : add byte ptr [ebx - 0x8f7dbbc], cl ; ret 0xeff0
+0x000f2f02 : add byte ptr [ebx], cl ; add byte ptr [ecx - 0x8fbdb8c], cl ; ret 0xff80
+0x00168857 : add byte ptr [ecx + 0x10ffed74], ah ; ret 0
+0x0000943b : add byte ptr [ecx + 0x12000000], bl ; add byte ptr [eax + eax], cl ; ret 0x38
+0x0004c441 : add byte ptr [ecx + 0x1b802], cl ; add byte ptr [eax], al ; ret
+0x0006b948 : add byte ptr [ecx + 0x1fe82434], cl ; ret
+0x0006ba37 : add byte ptr [ecx + 0x30e82434], cl ; ret 0xffff
+0x0014ad14 : add byte ptr [ecx + 0x33e82404], cl ; ret 0xffec
+0x0016885f : add byte ptr [ecx + 0x40ffed74], dh ; ret 0
+0x0006ba17 : add byte ptr [ecx + 0x50e82434], cl ; ret 0xffff
+0x0008765f : add byte ptr [ecx + 0x51896611], cl ; add al, 0x5b ; ret
+0x0008dcbf : add byte ptr [ecx + 0x5b5e5f17], cl ; ret
+0x0008df2f : add byte ptr [ecx + 0x5b5e5ff8], cl ; ret
+0x0007f456 : add byte ptr [ecx + 0x5d5f5ed0], cl ; ret
+0x000740b0 : add byte ptr [ecx + 0x5d5f5ee8], cl ; ret
+0x000cc20f : add byte ptr [ecx + 0x5d5f5ef8], cl ; ret
+0x0006910a : add byte ptr [ecx + 0x5f5e5bf8], cl ; ret
+0x000f5c45 : add byte ptr [ecx + 0x72e82434], cl ; ret
+0x0006455f : add byte ptr [ecx + 0x78e82434], cl ; ret 0
+0x000dea81 : add byte ptr [ecx + 0xc4572c3], al ; add dh, dh ; ret 0x8940
+0x000de901 : add byte ptr [ecx + 0xc46f2c3], al ; add dh, dh ; ret 0x8940
+0x0014ac3b : add byte ptr [ecx + 0xce82404], cl ; ret
+0x00000ceb : add byte ptr [ecx + eax + 0x1c00000], bh ; add byte ptr [eax], al ; ret
+0x001521bf : add byte ptr [ecx + ecx + 0x9bf0000], bh ; add byte ptr [eax], al ; ret 9
+0x000b3325 : add byte ptr [ecx + edx + 0x6b], dh ; ret 0x8934
+0x00053673 : add byte ptr [ecx - 0x17fbdbbc], cl ; ret
+0x000ea674 : add byte ptr [ecx - 0x17fbdbbc], cl ; ret 0x5f
+0x000d3b11 : add byte ptr [ecx - 0x2744722a], cl ; ret
+0x000d3dfc : add byte ptr [ecx - 0x2844722a], cl ; ret
+0x00064fb8 : add byte ptr [ecx - 0x2d00dbfc], cl ; add esp, 0x1c ; ret
+0x000d3ce6 : add byte ptr [ecx - 0x2e44722a], cl ; ret
+0x00064ed6 : add byte ptr [ecx - 0x2f00dbec], cl ; add esp, 0x1c ; ret
+0x00009553 : add byte ptr [ecx - 0x2ffffff0], ah ; ret 7
+0x000d3c59 : add byte ptr [ecx - 0x3444722a], cl ; ret
+0x000d3bb0 : add byte ptr [ecx - 0x3a44722a], cl ; ret
+0x0014ac84 : add byte ptr [ecx - 0x3c17dbfc], cl ; ret 0xffec
+0x000d3a45 : add byte ptr [ecx - 0x4044722a], cl ; ret
+0x000d39e4 : add byte ptr [ecx - 0x4644722a], cl ; ret
+0x0001925b : add byte ptr [ecx - 0x47fbdbbc], cl ; ret 0
+0x000d3a34 : add byte ptr [ecx - 0x5244722a], cl ; ret
+0x000d3937 : add byte ptr [ecx - 0x5844722a], cl ; ret
+0x0014aca2 : add byte ptr [ecx - 0x5a17dbfc], cl ; ret 0xffec
+0x000d3b00 : add byte ptr [ecx - 0x5e44722a], cl ; ret
+0x000f3e0e : add byte ptr [ecx - 0x617dbfc], cl ; ret 0
+0x000f5c28 : add byte ptr [ecx - 0x7017dbcc], cl ; ret
+0x0003f77f : add byte ptr [ecx - 0x761b1410], cl ; ret 0x9066
+0x00063cd7 : add byte ptr [ecx - 0x76bfdbbc], cl ; ret 0xfe9
+0x0010cd06 : add byte ptr [ecx - 0x76d3db94], cl ; ret 0xcd89
+0x00105135 : add byte ptr [ecx - 0x76d7db8c], cl ; ret 0xeac1
+0x000d6319 : add byte ptr [ecx - 0x76d7dbac], cl ; ret 0xac8b
+0x000e0d03 : add byte ptr [ecx - 0x76e3dba4], cl ; ret
+0x000f0faa : add byte ptr [ecx - 0x76f3dba4], cl ; ret
+0x0014acc0 : add byte ptr [ecx - 0x7817dbfc], cl ; ret 0xffec
+0x00054306 : add byte ptr [ecx - 0x7c878836], cl ; ret 0x830f
+0x0005452d : add byte ptr [ecx - 0x7cad8836], cl ; ret 0x830f
+0x0006d3eb : add byte ptr [ecx - 0x7cf174c6], cl ; ret 0x8904
+0x001189eb : add byte ptr [ecx - 0x7cf5740e], cl ; ret 0x8d04
+0x00055dff : add byte ptr [ecx - 0x7cf57416], cl ; ret 0x8d04
+0x000f2914 : add byte ptr [ecx - 0x8fbdb8c], cl ; ret 0xff80
+0x0005b871 : add byte ptr [ecx - 0x917dbfc], cl ; ret
+0x0007a73e : add byte ptr [ecx - 0x9e7db8c], cl ; ret 0x7403
+0x00069107 : add byte ptr [ecx], 0 ; add byte ptr [ecx + 0x5f5e5bf8], cl ; ret
+0x0016fc97 : add byte ptr [ecx], 3 ; ret 0xa03
+0x0007cfa8 : add byte ptr [ecx], ah ; ret 0x2474
+0x00026f0d : add byte ptr [ecx], al ; add byte ptr [eax], al ; ret
+0x000a9a2d : add byte ptr [ecx], al ; ret 0x9389
+0x000431cc : add byte ptr [ecx], al ; ret 0x9589
+0x000d5d0a : add byte ptr [ecx], al ; ret 0xb48b
+0x0010bf77 : add byte ptr [ecx], al ; ret 0xb70f
+0x000c3231 : add byte ptr [ecx], al ; ret 0xc083
+0x0006de27 : add byte ptr [ecx], al ; ret 0xc101
+0x0006a35e : add byte ptr [ecx], al ; ret 0xd8f7
+0x0006de7f : add byte ptr [ecx], bh ; ret 0x4b73
+0x000419b9 : add byte ptr [ecx], bh ; ret 0x4f0f
+0x000b0247 : add byte ptr [ecx], bh ; ret 0x830f
+0x000780be : add byte ptr [ecx], bh ; ret 0x840f
+0x00078075 : add byte ptr [ecx], bh ; ret 0x850f
+0x000c25de : add byte ptr [ecx], bh ; ret 0x860f
+0x0006fcb1 : add byte ptr [ecx], bh ; ret 0x870f
+0x00127ee7 : add byte ptr [ecx], bh ; ret 0xc789
+0x000fc43b : add byte ptr [ecx], bh ; ret 0xe075
+0x000fc229 : add byte ptr [ecx], bh ; ret 0xf75
+0x000d529d : add byte ptr [ecx], ch ; ret 0x28b
+0x0007029f : add byte ptr [ecx], ch ; ret 0x5489
+0x00021f5a : add byte ptr [ecx], ch ; ret 0x6c8b
+0x00038465 : add byte ptr [ecx], ch ; ret 0x848d
+0x0007435f : add byte ptr [ecx], ch ; ret 0x933b
+0x0002aeef : add byte ptr [ecx], ch ; ret 0xab89
+0x00020f0c : add byte ptr [ecx], ch ; ret 0xb48b
+0x0006fb5f : add byte ptr [ecx], ch ; ret 0xc601
+0x000e6aa3 : add byte ptr [ecx], ch ; ret 0xd089
+0x000478d3 : add byte ptr [ecx], ch ; ret 0xd285
+0x000c31ab : add byte ptr [ecx], ch ; ret 0xd501
+0x000807ec : add byte ptr [ecx], ch ; ret 0xd601
+0x000cd5e6 : add byte ptr [ecx], ch ; ret 0xd701
+0x0006c70d : add byte ptr [ecx], ch ; ret 0xe0c1
+0x0007f512 : add byte ptr [ecx], ch ; ret 0xea01
+0x0011452f : add byte ptr [ecx], ch ; ret 0xea83
+0x000a87c5 : add byte ptr [ecx], ch ; ret 0xfa83
+0x00031165 : add byte ptr [ecx], cl ; ret 0x5489
+0x000a9829 : add byte ptr [ecx], cl ; ret 0x840f
+0x000a9f79 : add byte ptr [ecx], cl ; ret 0x850f
+0x00007a9b : add byte ptr [edi + 0x12000000], dh ; add byte ptr [eax + eax], cl ; ret 0xc
+0x00087131 : add byte ptr [edi + 0x5b], bl ; ret
+0x001268cf : add byte ptr [edi + 0x5d], bl ; ret
+0x000a70a4 : add byte ptr [edi + 0x5e], bl ; ret
+0x000c5b41 : add byte ptr [edi + 0x5fd8f7fb], al ; ret
+0x0019dcb3 : add byte ptr [edi + 6], al ; add byte ptr [eax], al ; ret
+0x001529bf : add byte ptr [edi + ecx + 0xfbf0000], bh ; add byte ptr [eax], al ; ret 0xf
+0x00008cf3 : add byte ptr [edi - 0x4fffffea], dl ; ret
+0x0019c8c7 : add byte ptr [edi], bh ; add al, 0 ; add byte ptr [ebx + eax], ah ; add byte ptr [eax], al ; ret
+0x0000c6fb : add byte ptr [edx + 0x12000000], bh ; add byte ptr [eax + eax], cl ; ret 0x59
+0x00005613 : add byte ptr [edx + 0x70000017], bl ; ret
+0x00152dbf : add byte ptr [edx + edx + 0x12bf0000], bh ; add byte ptr [eax], al ; ret 0x12
+0x0007c432 : add byte ptr [edx - 9], al ; ret 3
+0x0000583f : add byte ptr [edx], ah ; add byte ptr [eax + eax], cl ; ret
+0x000060ff : add byte ptr [edx], ah ; add byte ptr [eax + eax], cl ; ret 3
+0x00034a0a : add byte ptr [edx], ah ; add byte ptr [eax], al ; add cl, ch ; ret
+0x00026e2d : add byte ptr [edx], al ; add byte ptr [eax], al ; ret
+0x0016ac97 : add byte ptr [edx], ch ; ret 0xfff4
+0x0000c3ef : add byte ptr [edx], dl ; add byte ptr [eax + eax], cl ; ret
+0x00009f7f : add byte ptr [edx], dl ; add byte ptr [eax + eax], cl ; ret 0x11
+0x0000943f : add byte ptr [edx], dl ; add byte ptr [eax + eax], cl ; ret 0x38
+0x0000422f : add byte ptr [edx], dl ; add byte ptr [eax + eax], cl ; ret 0x52
+0x0000c6ff : add byte ptr [edx], dl ; add byte ptr [eax + eax], cl ; ret 0x59
+0x00007a9f : add byte ptr [edx], dl ; add byte ptr [eax + eax], cl ; ret 0xc
+0x0000b59f : add byte ptr [edx], dl ; add byte ptr [eax + eax], cl ; ret 8
+0x0002f572 : add byte ptr [esi + 0x5f], bl ; ret
+0x0019d5a3 : add byte ptr [esi + 6], dh ; add byte ptr [eax], al ; add byte ptr [eax], al ; add byte ptr [eax], al ; ret
+0x0019eae3 : add byte ptr [esi + eax], ch ; add byte ptr [eax], al ; ret
+0x0012011b : add byte ptr [esi + ebp + 8], al ; add byte ptr [ebx + 0x5e], bl ; ret
+0x0016970f : add byte ptr [esi + esi*2 + 0x1e80fff0], dh ; add dword ptr [eax], eax ; ret
+0x00149ad7 : add byte ptr [esi - 0x77], dl ; ret 0x348d
+0x00149a77 : add byte ptr [esi - 0x77], dl ; ret 0xfe89
+0x000d8a18 : add byte ptr [esi - 9], ah ; ret 0xff80
+0x0000422b : add byte ptr [esi], bl ; add byte ptr [eax], al ; add byte ptr [edx], dl ; add byte ptr [eax + eax], cl ; ret 0x52
+0x0019b67b : add byte ptr [esp + eax*8 + 2], bh ; add al, dh ; ret 0xfff8
+0x001525bf : add byte ptr [esp + ecx + 0xcbf0000], bh ; add byte ptr [eax], al ; ret 0xc
+0x00125269 : add byte ptr [esp + edx - 0x7d], dh ; ret 0x8328
+0x00053670 : add byte ptr cs:[eax], al ; add byte ptr [ecx - 0x17fbdbbc], cl ; ret
+0x00022f8e : add byte ptr es:[eax + 1], bh ; ret
+0x000ed296 : add byte ptr es:[eax - 0x76d00088], al ; ret 0xe74
+0x000723ce : add byte ptr es:[eax - 1], bh ; ret
+0x0002ebc4 : add byte ptr es:[eax], al ; add byte ptr [eax - 1], bh ; ret
+0x0007bc9b : add byte ptr es:[eax], al ; add byte ptr [eax], al ; ret
+0x00094ece : add byte ptr es:[ebx + 0x5e], bl ; ret
+0x000a3dae : add byte ptr es:[ebx - 0x76efdb84], cl ; ret 0xff25
+0x0008df2e : add byte ptr es:[ecx + 0x5b5e5ff8], cl ; ret
+0x0006de7e : add byte ptr es:[ecx], bh ; ret 0x4b73
+0x0012b39e : add byte ptr es:[ecx], bh ; ret 0x850f
+0x00127ee6 : add byte ptr es:[ecx], bh ; ret 0xc789
+0x0002aeee : add byte ptr es:[ecx], ch ; ret 0xab89
+0x0006fb5e : add byte ptr es:[ecx], ch ; ret 0xc601
+0x000a71fe : add byte ptr es:[edi + 0x5e], bl ; ret
+0x0002aab5 : add byte ptr fs:[eax], al ; add byte ptr [eax + ecx - 0x77], dh ; ret 0xc8d
+0x0001af7e : add byte ptr ss:[eax], al ; ret
+0x0000b59b : add ch, al ; add dword ptr [eax], eax ; add byte ptr [edx], dl ; add byte ptr [eax + eax], cl ; ret 8
+0x000a6307 : add ch, al ; ret
+0x0006e408 : add ch, al ; ret 0x8dd
+0x000bb215 : add ch, bl ; ret
+0x00047fb4 : add ch, byte ptr [0x83000000] ; ret 0x8904
+0x00197d49 : add ch, byte ptr [ebp + 0x41140e0a] ; ret
+0x00199dbd : add ch, byte ptr [ebp + 0xe] ; add al, 0xc6 ; ret
+0x001748f0 : add ch, byte ptr [ebx + 0xa] ; ret
+0x0018a6d3 : add ch, byte ptr [ecx + 0xa] ; ret
+0x0018deb5 : add ch, byte ptr [ecx + 0xe] ; add al, 0xc6 ; ret
+0x000af6b8 : add ch, byte ptr [ecx] ; ret 0x448b
+0x000a76b2 : add ch, byte ptr [ecx] ; ret 0x48d
+0x000b194b : add ch, byte ptr [ecx] ; ret 0x858b
+0x000afb9d : add ch, byte ptr [ecx] ; ret 0xc8d
+0x000afebe : add ch, byte ptr [ecx] ; ret 0xd089
+0x000b164a : add ch, byte ptr [ecx] ; ret 0xd285
+0x0017ab89 : add ch, byte ptr [edi + 0xe] ; add al, 0xc6 ; ret
+0x00188b1d : add ch, byte ptr [edx + 0xe] ; add al, 0xc6 ; ret
+0x0018793d : add ch, byte ptr [edx + ecx + 0xe] ; add al, 0xc7 ; ret
+0x0016ffad : add ch, byte ptr [esi + 0x41140e0a] ; ret
+0x0016fb21 : add ch, byte ptr [esi + 0xa] ; ret
+0x0017eebc : add ch, byte ptr [esi + ecx + 4] ; ret
+0x00177613 : add ch, byte ptr [esi + ecx - 0x39383afc] ; ret
+0x0001f5ed : add ch, cl ; ret 0xfffc
+0x0002318b : add cl, al ; ret 0x8909
+0x0017ace5 : add cl, byte ptr [eax + 0x46140e0a] ; ret
+0x000857ea : add cl, byte ptr [eax - 0x2f76f7be] ; ret
+0x00085788 : add cl, byte ptr [eax - 0x2f76fdbe] ; ret
+0x0008b770 : add cl, byte ptr [ebp + 0x5b5f0442] ; ret
+0x0008b7a2 : add cl, byte ptr [ebp + 0x5b5f0842] ; ret
+0x000cfbb1 : add cl, byte ptr [ebx + 0x448d0855] ; ret 0x8b08
+0x0013550f : add cl, byte ptr [ebx + 0x5b082444] ; ret
+0x000915d8 : add cl, byte ptr [ebx + 0x5e082444] ; ret
+0x00178bde : add cl, byte ptr [ebx + 0xe] ; add al, 0xc6 ; ret
+0x000f2d82 : add cl, byte ptr [ebx] ; add byte ptr [ecx - 0x8fbdb8c], cl ; ret 0xff80
+0x0006a0f6 : add cl, byte ptr [ecx + 0x5e057432] ; ret
+0x0016fb90 : add cl, byte ptr [ecx + 0xa] ; ret
+0x00178d22 : add cl, byte ptr [ecx + 0xe] ; add al, 0xc6 ; ret
+0x000d0f04 : add cl, byte ptr [ecx - 0x17f7dbac] ; ret 0xfad1
+0x0008584a : add cl, byte ptr [ecx - 0x2f76f7be] ; ret
+0x0008582a : add cl, byte ptr [ecx - 0x2f76f8be] ; ret
+0x000c271c : add cl, byte ptr [ecx - 0x769bdbac] ; ret 0xfac1
+0x000d598d : add cl, byte ptr [ecx - 0x769fdbac] ; ret 0xfac1
+0x000d5ae0 : add cl, byte ptr [ecx - 0x76afdbac] ; ret 0xfac1
+0x00149fea : add cl, byte ptr [ecx - 0x7ca1f78e] ; ret 0x830c
+0x0011080c : add cl, byte ptr [ecx] ; ret 0x1688
+0x001831d7 : add cl, byte ptr [edi + 0x43140e0a] ; ret
+0x00185664 : add cl, byte ptr [edi + 0xa] ; ret
+0x0016fbc2 : add cl, byte ptr [edx] ; ret
+0x00183b59 : add cl, byte ptr [esi + 0x43140e0a] ; ret
+0x001907de : add cl, byte ptr [esi + 0xe] ; add al, 0xc6 ; ret
+0x00195cd9 : add cl, byte ptr [esi + ecx + 0x40e4308] ; ret
+0x0017eea9 : add cl, byte ptr [esi + ecx + 4] ; ret
+0x00034a0e : add cl, ch ; ret
+0x0007aa0f : add cl, ch ; ret 0xffd2
+0x000967d7 : add cl, ch ; ret 0xfffc
+0x000f8757 : add cl, ch ; ret 0xfffd
+0x0007a04b : add cl, ch ; ret 0xfffe
+0x00000530 : add dh, ah ; ret 0xad0
+0x001380b4 : add dh, bh ; ret 0xf
+0x0013807a : add dh, bh ; ret 2
+0x000556ba : add dh, bl ; ret
+0x00178ec1 : add dh, byte ptr [eax + 0xe] ; add al, 0xc6 ; ret
+0x00095c6c : add dh, byte ptr [eax] ; ret
+0x0018a1c5 : add dh, byte ptr [ebp + 0xa] ; ret
+0x00173181 : add dh, byte ptr [ebp + 0xe] ; add al, 0xc6 ; ret
+0x00175f88 : add dh, byte ptr [ebx + 0xa] ; ret
+0x00195e30 : add dh, byte ptr [ecx + 0xa] ; ret
+0x0018df8d : add dh, byte ptr [ecx + 0xe] ; add al, 0xc6 ; ret
+0x00171ae9 : add dh, byte ptr [edi + 0xe] ; add al, 0xc6 ; ret
+0x0017dea9 : add dh, byte ptr [edx + 0xe] ; add al, 0xc6 ; ret
+0x000d934b : add dh, byte ptr [esi + 2] ; ret
+0x001909dd : add dh, byte ptr [esi + ecx + 0x10] ; ret
+0x001807d1 : add dh, byte ptr [esi + ecx + 4] ; ret
+0x000d1bc3 : add dh, dh ; ret 0x7404
+0x0014685d : add dh, dh ; ret 0x7501
+0x0008f8bf : add dh, dh ; ret 0x7510
+0x000ad9a5 : add dh, dh ; ret 0x7518
+0x0002e9c4 : add dh, dh ; ret 0x8901
+0x000de907 : add dh, dh ; ret 0x8940
+0x000c745f : add dh, dh ; ret 0xc740
+0x000c6bf4 : add dh, dh ; ret 0xf01
+0x0002c693 : add dh, dh ; ret 0xf02
+0x001472a9 : add dh, dh ; ret 0xf04
+0x000d248b : add dh, dh ; ret 0xf08
+0x001498d1 : add dh, dh ; ret 0xf0f
+0x00147241 : add dh, dh ; ret 0xf10
+0x000ae157 : add dh, dh ; ret 0xf18
+0x00147252 : add dh, dh ; ret 0xf20
+0x0002e930 : add dh, dh ; ret 0xf302
+0x00147263 : add dh, dh ; ret 0xf40
+0x0004c6f7 : add dh, dh ; ret 0xf80
+0x00185be1 : add dl, byte ptr [eax + 0xe] ; add al, 0xc6 ; ret
+0x00183e04 : add dl, byte ptr [ebp + 0x41140e0a] ; ret
+0x00193fa2 : add dl, byte ptr [ebp + 0xe] ; add al, 0xc6 ; ret
+0x00198060 : add dl, byte ptr [edi + 0x43140e0a] ; ret
+0x001733c9 : add dl, byte ptr [edi + 0xe] ; add al, 0xc6 ; ret
+0x0019227c : add dl, byte ptr [edx + 0x43140e0a] ; ret
+0x001886f6 : add dl, byte ptr [edx + 0xa] ; ret
+0x00189dc2 : add dl, byte ptr [edx + 0xe] ; add al, 0xc6 ; ret
+0x00196e3d : add dl, byte ptr [edx - 0x3938fbf2] ; ret
+0x00193f9f : add dl, byte ptr [edx - 0x7a] ; add dl, byte ptr [ebp + 0xe] ; add al, 0xc6 ; ret
+0x001706ca : add dl, byte ptr [esi + 0x43140e0a] ; ret
+0x00199080 : add dl, byte ptr [esi + ecx + 0x100e4114] ; ret
+0x0019dcaf : add dl, ch ; add al, 0 ; add byte ptr [edi + 6], al ; add byte ptr [eax], al ; ret
+0x0016fc93 : add dword ptr [0x1800e43], 3 ; ret 0xa03
+0x001988b3 : add dword ptr [0x1900e4e], 2 ; ret
+0x00187f3d : add dword ptr [0x5d030486], 6 ; ret
+0x00159488 : add dword ptr [0x73950000], ecx ; ret 0x48
+0x00186531 : add dword ptr [0x7c020486], 0xa ; ret
+0x00174613 : add dword ptr [0xe0a5202], 0x10 ; ret
+0x0018ccf7 : add dword ptr [0xe0a7902], 0x10 ; ret
+0x00089a01 : add dword ptr [eax + 0x5f028d02], ecx ; ret
+0x0007f8f2 : add dword ptr [eax + 0x5f], eax ; ret
+0x00085641 : add dword ptr [eax + 0x5ff88902], ecx ; ret
+0x000e1988 : add dword ptr [eax + eax], -0x7f ; ret
+0x000d36d6 : add dword ptr [eax + eax], 0x18838d00 ; ret
+0x000a58a2 : add dword ptr [eax - 0x6bf0d006], eax ; ret 0xb60f
+0x0002e9c1 : add dword ptr [eax], 0 ; add dh, dh ; ret 0x8901
+0x000e10a8 : add dword ptr [eax], eax ; add al, ch ; ret
+0x0007c41f : add dword ptr [eax], eax ; add bh, dh ; ret 3
+0x0007350d : add dword ptr [eax], eax ; add bl, dh ; ret
+0x00150862 : add dword ptr [eax], eax ; add byte ptr [eax], al ; add byte ptr [eax], al ; ret
+0x0015085a : add dword ptr [eax], eax ; add byte ptr [eax], al ; add byte ptr [eax], al ; ret 0x1d4
+0x00150ff2 : add dword ptr [eax], eax ; add byte ptr [eax], al ; add byte ptr [eax], al ; ret 0x1d5
+0x000e3c38 : add dword ptr [eax], eax ; add byte ptr [eax], al ; add esp, 0x1c ; ret
+0x00114acd : add dword ptr [eax], eax ; add byte ptr [eax], al ; add esp, 8 ; ret
+0x00022f91 : add dword ptr [eax], eax ; add byte ptr [eax], al ; ret
+0x00080226 : add dword ptr [eax], eax ; add byte ptr [ebx + 0x1242454], cl ; ret 0x442b
+0x0006b35b : add dword ptr [eax], eax ; add byte ptr [ebx + 0x5e], bl ; ret
+0x00148ce2 : add dword ptr [eax], eax ; add byte ptr [ebx - 0x79f0bf11], al ; ret 1
+0x00041f19 : add dword ptr [eax], eax ; add byte ptr [ebx - 0x7bf0ef03], al ; ret
+0x00131fe2 : add dword ptr [eax], eax ; add byte ptr [ebx - 0x7bf0fb03], al ; ret
+0x00131a81 : add dword ptr [eax], eax ; add byte ptr [ebx - 0x7bf0ff07], al ; ret
+0x0001e139 : add dword ptr [eax], eax ; add byte ptr [ebx - 0x7ccfdbac], cl ; ret 0x3904
+0x00069108 : add dword ptr [eax], eax ; add byte ptr [ecx + 0x5f5e5bf8], cl ; ret
+0x000f117a : add dword ptr [eax], eax ; add byte ptr [ecx - 0x76f3dba4], cl ; ret
+0x00078073 : add dword ptr [eax], eax ; add byte ptr [ecx], bh ; ret 0x850f
+0x00021f58 : add dword ptr [eax], eax ; add byte ptr [ecx], ch ; ret 0x6c8b
+0x00020f0a : add dword ptr [eax], eax ; add byte ptr [ecx], ch ; ret 0xb48b
+0x0007f510 : add dword ptr [eax], eax ; add byte ptr [ecx], ch ; ret 0xea01
+0x000a87c3 : add dword ptr [eax], eax ; add byte ptr [ecx], ch ; ret 0xfa83
+0x000875bd : add dword ptr [eax], eax ; add byte ptr [edi + 0x5b], bl ; ret
+0x000a70a2 : add dword ptr [eax], eax ; add byte ptr [edi + 0x5e], bl ; ret
+0x0000583d : add dword ptr [eax], eax ; add byte ptr [edx], ah ; add byte ptr [eax + eax], cl ; ret
+0x0000b59d : add dword ptr [eax], eax ; add byte ptr [edx], dl ; add byte ptr [eax + eax], cl ; ret 8
+0x00149ad5 : add dword ptr [eax], eax ; add byte ptr [esi - 0x77], dl ; ret 0x348d
+0x00149a75 : add dword ptr [eax], eax ; add byte ptr [esi - 0x77], dl ; ret 0xfe89
+0x00147285 : add dword ptr [eax], eax ; add dh, dh ; ret 0xf01
+0x00147296 : add dword ptr [eax], eax ; add dh, dh ; ret 0xf02
+0x001472a7 : add dword ptr [eax], eax ; add dh, dh ; ret 0xf04
+0x0014723f : add dword ptr [eax], eax ; add dh, dh ; ret 0xf10
+0x00147250 : add dword ptr [eax], eax ; add dh, dh ; ret 0xf20
+0x00147261 : add dword ptr [eax], eax ; add dh, dh ; ret 0xf40
+0x00169716 : add dword ptr [eax], eax ; ret
+0x0000c97a : add dword ptr [eax], eax ; ret 1
+0x0004b2ab : add dword ptr [eax], edi ; ret 0x840f
+0x0004b4b1 : add dword ptr [eax], edi ; ret 0x850f
+0x0009587c : add dword ptr [eax], edx ; ret
+0x0009589c : add dword ptr [eax], esi ; ret
+0x0009588c : add dword ptr [eax], esp ; ret
+0x000556b8 : add dword ptr [ebp + 2], esi ; ret
+0x0007eff8 : add dword ptr [ebp - 0xb], esi ; ret
+0x00097039 : add dword ptr [ebx + 0x211c244c], ecx ; ret 0xd789
+0x000026c6 : add dword ptr [ebx + 0x2b], 0x821055b8 ; ret 0x617e
+0x0008b515 : add dword ptr [ebx + 0x5b5fffd8], eax ; ret
+0x000e8443 : add dword ptr [ebx + 0x5e5b24c4], eax ; ret
+0x0003f775 : add dword ptr [ebx + 0x5e], ebx ; ret
+0x0006e423 : add dword ptr [ebx + 0xa8904c1], eax ; ret
+0x000979cf : add dword ptr [ebx - 0x50f0fe3e], eax ; ret 0xedc1
+0x00019d26 : add dword ptr [ebx - 0x76ebdb94], ecx ; ret 0x4c89
+0x00127c72 : add dword ptr [ebx - 0x7ac3dbbc], ecx ; ret 0x1574
+0x00127b53 : add dword ptr [ebx - 0x7ac7dbbc], ecx ; ret 0x840f
+0x000d4429 : add dword ptr [ebx - 0x7ccfdbbc], ecx ; ret 0x8940
+0x0007eff5 : add dword ptr [ebx - 0xa8afe17], eax ; ret
+0x00171b8e : add dword ptr [ebx], 0x78 ; ret
+0x0016fc98 : add dword ptr [ebx], eax ; ret 0xa03
+0x000f2e42 : add dword ptr [ebx], ecx ; add byte ptr [ecx - 0x8fbdb8c], cl ; ret 0xff80
+0x0019bfd3 : add dword ptr [ebx], ecx ; ret
+0x0007e351 : add dword ptr [ecx + 0x24348bf0], ecx ; add esp, 8 ; ret
+0x00089b71 : add dword ptr [ecx + 0x3428d02], ecx ; ret
+0x000368ce : add dword ptr [ecx + 0x38f889f2], ecx ; ret 0xf175
+0x00088431 : add dword ptr [ecx + 0x5bd08902], ecx ; ret
+0x00085581 : add dword ptr [ecx + 0x5ff88902], ecx ; ret
+0x0007cb06 : add dword ptr [ecx - 0x49f0dbfc], ecx ; ret 0x7c89
+0x0009f89e : add dword ptr [ecx - 0x76afdbbc], ecx ; ret 0x448b
+0x0003769a : add dword ptr [ecx - 0x76b7dbbc], ecx ; ret 0x448b
+0x0009cab2 : add dword ptr [ecx - 0x76cfdbbc], ecx ; ret 0x448b
+0x000f101f : add dword ptr [ecx - 0x76f3dba4], ecx ; ret
+0x000b33ab : add dword ptr [ecx - 0x7c05d63e], ecx ; ret 0xf703
+0x001828c1 : add dword ptr [ecx*2 + 0xec60c0e], 8 ; ret
+0x001700be : add dword ptr [ecx], 0x41140e0a ; ret
+0x0007f3a3 : add dword ptr [ecx], eax ; ret 0x4489
+0x00129695 : add dword ptr [ecx], eax ; ret 0x5489
+0x000d720d : add dword ptr [ecx], eax ; ret 0x5739
+0x00076a9e : add dword ptr [ecx], eax ; ret 0xd0f7
+0x0004b31b : add dword ptr [ecx], eax ; ret 0xf980
+0x0002300d : add dword ptr [ecx], ebp ; ret 0x5489
+0x0005e6fd : add dword ptr [ecx], ebp ; ret 0x953b
+0x0007fd9f : add dword ptr [ecx], ebp ; ret 0xf001
+0x000a544b : add dword ptr [ecx], edi ; ret 0x1375
+0x0003064a : add dword ptr [ecx], edi ; ret 0x189
+0x000419b1 : add dword ptr [ecx], edi ; ret 0x3a74
+0x00038a62 : add dword ptr [ecx], edi ; ret 0x689
+0x0003f1df : add dword ptr [ecx], edi ; ret 0x870f
+0x0003f247 : add dword ptr [ecx], edi ; ret 0xd476
+0x000cb3af : add dword ptr [ecx], edi ; ret 0xd689
+0x0003f346 : add dword ptr [ecx], edi ; ret 0xd77
+0x00042166 : add dword ptr [ecx], edi ; ret 0xed72
+0x000a9ab6 : add dword ptr [ecx], edi ; ret 0xed75
+0x0001cd4b : add dword ptr [ecx], edi ; ret 0xf075
+0x000cc38d : add dword ptr [ecx], edi ; ret 0xf275
+0x000c5680 : add dword ptr [ecx], edi ; ret 0xf377
+0x00101a35 : add dword ptr [edi + 0x5d], ebx ; ret
+0x000d1bca : add dword ptr [edx + ebx*4 - 0xa], esi ; ret 0x7408
+0x00191566 : add dword ptr [edx], -0x7f ; add eax, dword ptr [edx + 0xc0e5f04] ; ret 0xe41
+0x001988b8 : add dword ptr [edx], eax ; ret
+0x0016f98a : add dword ptr [edx], ecx ; ret
+0x0002f853 : add dword ptr [esi + 0x5f], ebx ; ret
+0x00078072 : add dword ptr fs:[eax], eax ; add byte ptr [ecx], bh ; ret 0x850f
+0x0019daa1 : add eax, 0 ; add byte ptr [eax], al ; ret 3
+0x00019b63 : add eax, 0 ; ret
+0x001909dc : add eax, 0x100e7402 ; ret
+0x0017bee4 : add eax, 0x100edf02 ; ret
+0x0019ca6d : add eax, 0x1250000 ; add byte ptr [eax], al ; ret
+0x00040ea5 : add eax, 0x1cc48300 ; ret
+0x00185aa8 : add eax, 0x2400e43 ; ret 0xe0a
+0x000a7f33 : add eax, 0x291ff8c1 ; ret 0x1b8
+0x000b0420 : add eax, 0x291ff8c1 ; ret 0xd26b
+0x0017485b : add eax, 0x3870486 ; add ah, al ; ret
+0x00195dfb : add eax, 0x3870486 ; add ah, byte ptr [ebx + 0xa] ; ret
+0x0019a48b : add eax, 0x3870486 ; add ah, byte ptr [ecx + 0xa] ; ret
+0x0018831f : add eax, 0x3870486 ; add ah, byte ptr [esi + 0xa] ; ret
+0x00187987 : add eax, 0x3870486 ; add al, byte ptr [ecx + 0xa] ; ret
+0x001876fb : add eax, 0x3870486 ; add bl, byte ptr [ecx + 0xa] ; ret
+0x0018a1ef : add eax, 0x3870486 ; add bl, byte ptr [edi + 0xa] ; ret
+0x0016fb8b : add eax, 0x3870486 ; add cl, byte ptr [ecx + 0xa] ; ret
+0x0018565f : add eax, 0x3870486 ; add cl, byte ptr [edi + 0xa] ; ret
+0x00195e2b : add eax, 0x3870486 ; add dh, byte ptr [ecx + 0xa] ; ret
+0x0017117b : add eax, 0x3870486 ; add eax, dword ptr [ecx + eax + 0xa] ; ret
+0x0018cb33 : add eax, 0x3870486 ; add eax, eax ; add cl, byte ptr [edx] ; ret
+0x001895bb : add eax, 0x3870486 ; add ebp, edx ; add cl, byte ptr [edx] ; ret
+0x0018c37f : add eax, 0x3870486 ; add ebx, dword ptr [ecx] ; add dword ptr [edx], ecx ; ret
+0x00193693 : add eax, 0x3870486 ; add ebx, dword ptr [edx] ; add cl, byte ptr [edx] ; ret
+0x00183a8f : add eax, 0x3870486 ; add ebx, dword ptr [edx] ; add dword ptr [edx], ecx ; ret
+0x001748db : add eax, 0x3870486 ; add ebx, eax ; add dword ptr [edx], ecx ; ret
+0x0018a6af : add eax, 0x3870486 ; add ebx, ebp ; add dword ptr [edx], ecx ; ret
+0x00190f8b : add eax, 0x3870486 ; add ebx, ecx ; add al, 0xa ; ret
+0x0018754f : add eax, 0x3870486 ; add ebx, esi ; add dword ptr [edx], ecx ; ret
+0x0017141b : add eax, 0x3870486 ; add ecx, dword ptr [ebx + eax + 0xa] ; ret
+0x00173eef : add eax, 0x3870486 ; add ecx, dword ptr [edi] ; add cl, byte ptr [edx] ; ret
+0x0019a4ef : add eax, 0x3870486 ; add ecx, ebx ; add cl, byte ptr [edx] ; ret
+0x0019a3bf : add eax, 0x3870486 ; add ecx, edx ; add dword ptr [edx], ecx ; ret
+0x0016f603 : add eax, 0x3870486 ; add edx, dword ptr [eax] ; add ecx, dword ptr [edx] ; ret
+0x00190e03 : add eax, 0x3870486 ; add edx, dword ptr [ebp + eax + 0xa] ; ret
+0x0019887b : add eax, 0x3870486 ; add edx, esi ; add cl, byte ptr [edx] ; ret
+0x0019a0fb : add eax, 0x3870486 ; add esi, dword ptr [ebx] ; add dword ptr [edx], ecx ; ret
+0x0019602f : add eax, 0x3870486 ; add esi, dword ptr [ecx + eax + 0xa] ; ret
+0x00196213 : add eax, 0x3870486 ; add esi, dword ptr [ecx] ; add dword ptr [edx], ecx ; ret
+0x00174f17 : add eax, 0x3870486 ; add esi, dword ptr [ecx] ; add ecx, dword ptr [edx] ; ret
+0x00187d83 : add eax, 0x3870486 ; add esi, dword ptr [esi] ; add al, 0xa ; ret
+0x0017e1df : add eax, 0x3870486 ; add esi, ebx ; add al, 0xa ; ret
+0x00177e6f : add eax, 0x3870486 ; add esi, ecx ; add dword ptr [edx], ecx ; ret
+0x0018d857 : add eax, 0x3870486 ; add esp, dword ptr [ebx] ; add dword ptr [edx], ecx ; ret
+0x0016f983 : add eax, 0x3870486 ; add esp, dword ptr [edi] ; add dword ptr [edx], ecx ; ret
+0x00185fdf : add eax, 0x3870486 ; add esp, dword ptr [edx] ; add dword ptr [edx], ecx ; ret
+0x0018ef7f : add eax, 0x3870486 ; add esp, ebx ; add ecx, dword ptr [edx] ; ret
+0x001859eb : add eax, 0x3870486 ; add esp, edx ; add al, 0xa ; ret
+0x000e7c0b : add eax, 0x5b18c483 ; ret
+0x0002d452 : add eax, 0x5b28c483 ; ret
+0x000871c9 : add eax, 0x5b5f0000 ; ret
+0x00151de9 : add eax, 0x5bd0000 ; add byte ptr [eax], al ; ret 5
+0x000013e1 : add eax, 0x5be0000 ; add byte ptr [eax], al ; ret 5
+0x0014e47d : add eax, 0x5c00000 ; add byte ptr [eax], al ; ret 5
+0x000c6af6 : add eax, 0x5e5bd089 ; ret
+0x00089af1 : add eax, 0x5f0c428d ; ret
+0x00093ef4 : add eax, 0x5f5bf889 ; ret
+0x001470e2 : add eax, 0x6c083c3 ; ret
+0x0019c8d1 : add eax, 0x7640000 ; add byte ptr [eax], al ; ret 2
+0x00171b8c : add eax, 0x78038341 ; ret
+0x00138f6a : add eax, 0x81ffff0e ; ret
+0x0002510f : add eax, 0x83240489 ; ret 0x8901
+0x00083995 : add eax, 0x89000000 ; ret 0x838d
+0x000243e1 : add eax, 0x89c08500 ; ret 0x840f
+0x000a6302 : add eax, 0x8d99eb00 ; add ch, al ; ret
+0x001470f4 : add eax, 0xa ; ret
+0x00170850 : add eax, 0xa010f03 ; ret
+0x0019b378 : add eax, 0xa014103 ; ret
+0x0019a774 : add eax, 0xa017803 ; ret
+0x0019a044 : add eax, 0xa01a003 ; ret
+0x0018b6e4 : add eax, 0xa03ba03 ; ret
+0x001470a6 : add eax, 0xb ; ret
+0x0019a2ba : add eax, 0xbc030486 ; add dword ptr [edx], ecx ; ret
+0x0010faea : add eax, 0xc ; ret
+0x0001934b : add eax, 0xc35b0000 ; ret
+0x00147100 : add eax, 0xd ; ret
+0x00147104 : add eax, 0xe ; ret
+0x001470bf : add eax, 0xf ; ret
+0x0019bfce : add eax, 0xffff0000 ; add dword ptr [ebx], ecx ; ret
+0x0007e2ed : add eax, 1 ; ret
+0x00116d92 : add eax, 2 ; add esp, 0x1c ; ret
+0x000a73c7 : add eax, 2 ; ret
+0x000a73e0 : add eax, 3 ; ret
+0x001470dc : add eax, 4 ; ret
+0x001470e0 : add eax, 5 ; ret
+0x001470e4 : add eax, 6 ; ret
+0x0014707f : add eax, 7 ; ret
+0x00098430 : add eax, 8 ; ret
+0x001470f0 : add eax, 9 ; ret
+0x00019b62 : add eax, dword ptr [0] ; ret
+0x000a7421 : add eax, dword ptr [eax] ; add byte ptr [eax], al ; ret
+0x0010cd04 : add eax, dword ptr [eax] ; add byte ptr [ecx - 0x76d3db94], cl ; ret 0xcd89
+0x0008744f : add eax, dword ptr [eax] ; add byte ptr [edi + 0x5b], bl ; ret
+0x000d1bc1 : add eax, dword ptr [eax] ; add dh, dh ; ret 0x7404
+0x00148e29 : add eax, dword ptr [eax] ; add dh, dh ; ret 0xf04
+0x000d2489 : add eax, dword ptr [eax] ; add dh, dh ; ret 0xf08
+0x00148e46 : add eax, dword ptr [eax] ; add dh, dh ; ret 0xf20
+0x00148e4f : add eax, dword ptr [eax] ; add dh, dh ; ret 0xf40
+0x0000b12a : add eax, dword ptr [eax] ; ret
+0x0016e436 : add eax, dword ptr [eax] ; ret 0xfffb
+0x000a74bf : add eax, dword ptr [ebp + 0x5ed475f6] ; ret
+0x00118876 : add eax, dword ptr [ebx + 0x5689fce2] ; add al, 0x83 ; ret 0x8901
+0x0018a1c1 : add eax, dword ptr [ebx + eax*4 + 5] ; add dh, byte ptr [ebp + 0xa] ; ret
+0x0017e1e3 : add eax, dword ptr [ebx] ; add al, 0xa ; ret
+0x001858b1 : add eax, dword ptr [ecx + eax + 0x41140e0a] ; ret
+0x00199f8d : add eax, dword ptr [ecx + eax + 0x43140e0a] ; ret
+0x00171180 : add eax, dword ptr [ecx + eax + 0xa] ; ret
+0x0017084d : add eax, dword ptr [ecx - 0x7d] ; add eax, 0xa010f03 ; ret
+0x0019b375 : add eax, dword ptr [ecx - 0x7d] ; add eax, 0xa014103 ; ret
+0x0019a041 : add eax, dword ptr [ecx - 0x7d] ; add eax, 0xa01a003 ; ret
+0x0019217b : add eax, dword ptr [ecx] ; add dword ptr [edx], ecx ; ret
+0x000d0af9 : add eax, dword ptr [ecx] ; ret 0x4489
+0x00029a29 : add eax, dword ptr [ecx] ; ret 0xd001
+0x0018b6e1 : add eax, dword ptr [edi - 0x7d] ; add eax, 0xa03ba03 ; ret
+0x00191569 : add eax, dword ptr [edx + 0xc0e5f04] ; ret 0xe41
+0x0004b592 : add eax, dword ptr [edx] ; add byte ptr [ebx - 0x6bf0fe40], al ; ret 0x50e9
+0x0002f730 : add eax, dword ptr [esp] ; ret
+0x0008744e : add eax, dword ptr ds:[eax] ; add byte ptr [edi + 0x5b], bl ; ret
+0x00019b61 : add eax, dword ptr gs:[0] ; ret
+0x0018cb38 : add eax, eax ; add cl, byte ptr [edx] ; ret
+0x000d8dd7 : add eax, ebp ; ret
+0x001845a6 : add eax, ebx ; add dword ptr [edx], ecx ; ret
+0x001470da : add eax, ebx ; add eax, 4 ; ret
+0x000952e0 : add eax, ecx ; ret
+0x00095b1d : add eax, edx ; add eax, ecx ; ret
+0x00095c83 : add eax, edx ; ret
+0x001704e9 : add ebp, dword ptr [ebp + 0xe] ; add al, 0xc6 ; ret
+0x00171430 : add ebp, dword ptr [ecx] ; add dword ptr [edx], ecx ; ret
+0x000a77ff : add ebp, dword ptr [ecx] ; ret 0x448b
+0x000a7da8 : add ebp, dword ptr [ecx] ; ret 0x48d
+0x0018ab10 : add ebp, dword ptr [edx + ecx + 0xe] ; add al, 0xc7 ; ret
+0x001823f7 : add ebp, dword ptr [esi + ecx + 8] ; ret
+0x001895c0 : add ebp, edx ; add cl, byte ptr [edx] ; ret
+0x001733c6 : add ebx, dword ptr [eax - 0x7a] ; add dl, byte ptr [edi + 0xe] ; add al, 0xc6 ; ret
+0x00187f41 : add ebx, dword ptr [ebp + 6] ; ret
+0x00185bff : add ebx, dword ptr [ecx - 0x7a] ; add bh, byte ptr [edi + 0xe] ; add al, 0xc6 ; ret
+0x0018c384 : add ebx, dword ptr [ecx] ; add dword ptr [edx], ecx ; ret
+0x00193698 : add ebx, dword ptr [edx] ; add cl, byte ptr [edx] ; ret
+0x00183a94 : add ebx, dword ptr [edx] ; add dword ptr [edx], ecx ; ret
+0x0007d3b5 : add ebx, dword ptr [esi + 0x5f] ; ret
+0x001820d6 : add ebx, dword ptr [esi + ecx + 8] ; ret
+0x001748e0 : add ebx, eax ; add dword ptr [edx], ecx ; ret
+0x001470d2 : add ebx, eax ; add eax, 2 ; ret
+0x0018a6b4 : add ebx, ebp ; add dword ptr [edx], ecx ; ret
+0x00190f90 : add ebx, ecx ; add al, 0xa ; ret
+0x00187554 : add ebx, esi ; add dword ptr [edx], ecx ; ret
+0x0007d3b2 : add ecx, dword ptr [ebp + 0x5f5e0346] ; ret
+0x0019a771 : add ecx, dword ptr [ebp - 0x7d] ; add eax, 0xa017803 ; ret
+0x00091629 : add ecx, dword ptr [ebx + 0x5e082444] ; ret
+0x0007c5b3 : add ecx, dword ptr [ebx + 0x5f082444] ; ret
+0x00171420 : add ecx, dword ptr [ebx + eax + 0xa] ; ret
+0x000f2c12 : add ecx, dword ptr [ebx] ; add byte ptr [ecx - 0x8fbdb8c], cl ; ret 0xff80
+0x00097c91 : add ecx, dword ptr [ecx + 0x5f5e084a] ; ret
+0x000857c6 : add ecx, dword ptr [ecx - 0x2f76fcbe] ; ret
+0x00199dba : add ecx, dword ptr [edi - 0x7a] ; add ch, byte ptr [ebp + 0xe] ; add al, 0xc6 ; ret
+0x00197036 : add ecx, dword ptr [edi - 0x7a] ; add dh, byte ptr [ecx + 0xe] ; add al, 0xc6 ; ret
+0x00173ef4 : add ecx, dword ptr [edi] ; add cl, byte ptr [edx] ; ret
+0x00170851 : add ecx, dword ptr [edi] ; add dword ptr [edx], ecx ; ret
+0x0016f60a : add ecx, dword ptr [edx] ; ret
+0x0019a4f4 : add ecx, ebx ; add cl, byte ptr [edx] ; ret
+0x000ee2cc : add ecx, ebx ; ret 0xcad8
+0x0019a3c4 : add ecx, edx ; add dword ptr [edx], ecx ; ret
+0x00191793 : add edi, dword ptr [eax + 0xa] ; ret
+0x0017e24b : add edi, dword ptr [ebx + 0xa] ; ret
+0x00184597 : add edi, dword ptr [ecx + 0xa] ; ret
+0x00179d39 : add edi, dword ptr [ecx + 0xe] ; add al, 0xc6 ; ret
+0x0018df6a : add edi, dword ptr [ecx - 0x7a] ; add ah, byte ptr [ecx + 0xe] ; add al, 0xc6 ; ret
+0x000a99c7 : add edi, dword ptr [ecx] ; ret 0x820f
+0x00179bad : add edi, dword ptr [edi + 0xe] ; add al, 0xc6 ; ret
+0x00199bd9 : add edi, dword ptr [edx + 0xe] ; add al, 0xc6 ; ret
+0x001775c5 : add edi, dword ptr [edx + ecx + 0xe] ; add al, 0xc6 ; ret
+0x0016f608 : add edx, dword ptr [eax] ; add ecx, dword ptr [edx] ; ret
+0x00190e08 : add edx, dword ptr [ebp + eax + 0xa] ; ret
+0x00191b62 : add edx, dword ptr [ebp - 0x7a] ; add ch, byte ptr [edi + 0xe] ; add al, 0xc6 ; ret
+0x0017c5ee : add edx, dword ptr [ebx - 0x7a] ; add ah, byte ptr [eax + 0xe] ; add al, 0xc6 ; ret
+0x00175212 : add edx, dword ptr [ebx - 0x7a] ; add bh, byte ptr [ebx + 0xe] ; add al, 0xc6 ; ret
+0x00174222 : add edx, dword ptr [ebx - 0x7a] ; add bl, byte ptr [edx + ecx + 0xe] ; add al, 0xc6 ; ret
+0x0017ab86 : add edx, dword ptr [ebx - 0x7a] ; add ch, byte ptr [edi + 0xe] ; add al, 0xc6 ; ret
+0x00178ebe : add edx, dword ptr [ebx - 0x7a] ; add dh, byte ptr [eax + 0xe] ; add al, 0xc6 ; ret
+0x0018df8a : add edx, dword ptr [ebx - 0x7a] ; add dh, byte ptr [ecx + 0xe] ; add al, 0xc6 ; ret
+0x00171ae6 : add edx, dword ptr [ebx - 0x7a] ; add dh, byte ptr [edi + 0xe] ; add al, 0xc6 ; ret
+0x0017dea6 : add edx, dword ptr [ebx - 0x7a] ; add dh, byte ptr [edx + 0xe] ; add al, 0xc6 ; ret
+0x00188b1a : add edx, dword ptr [ecx - 0x7a] ; add ch, byte ptr [edx + 0xe] ; add al, 0xc6 ; ret
+0x00195b42 : add edx, dword ptr [ecx - 0x7a] ; add dh, byte ptr [eax + 0xe] ; add al, 0xc6 ; ret
+0x00188c06 : add edx, dword ptr [ecx - 0x7a] ; add dh, byte ptr [edx + 0xe] ; add al, 0xc6 ; ret
+0x0018793a : add edx, dword ptr [edi - 0x79] ; add ch, byte ptr [edx + ecx + 0xe] ; add al, 0xc7 ; ret
+0x0018deb2 : add edx, dword ptr [edi - 0x7a] ; add ch, byte ptr [ecx + 0xe] ; add al, 0xc6 ; ret
+0x0018bc91 : add edx, dword ptr [edx + eax + 0x43140e0a] ; ret
+0x00190ce7 : add edx, dword ptr [esi + 0xa] ; ret
+0x00182070 : add edx, dword ptr [esi + ecx + 8] ; ret
+0x00179dfd : add edx, ebx ; add cl, byte ptr [edx] ; ret
+0x00198880 : add edx, esi ; add cl, byte ptr [edx] ; ret
+0x00095d35 : add esi, dword ptr [eax + edx - 0x7d] ; ret 0x3904
+0x0018de92 : add esi, dword ptr [eax - 0x7a] ; add bl, byte ptr [edx + 0xe] ; add al, 0xc6 ; ret
+0x001908ed : add esi, dword ptr [ebx + 0xe] ; add al, 0xc6 ; ret
+0x0019a100 : add esi, dword ptr [ebx] ; add dword ptr [edx], ecx ; ret
+0x00177eed : add esi, dword ptr [ecx + 0xe] ; add al, 0xc6 ; ret
+0x00196034 : add esi, dword ptr [ecx + eax + 0xa] ; ret
+0x00196218 : add esi, dword ptr [ecx] ; add dword ptr [edx], ecx ; ret
+0x00174f1c : add esi, dword ptr [ecx] ; add ecx, dword ptr [edx] ; ret
+0x001711bf : add esi, dword ptr [edi + 0xa] ; ret
+0x00187d88 : add esi, dword ptr [esi] ; add al, 0xa ; ret
+0x0017e25a : add esi, ebp ; add cl, byte ptr [edx] ; ret
+0x0017e1e4 : add esi, ebx ; add al, 0xa ; ret
+0x0006812c : add esi, ebx ; ret
+0x00177e74 : add esi, ecx ; add dword ptr [edx], ecx ; ret
+0x0002c67d : add esi, esi ; ret 0x6601
+0x000311c9 : add esp, 0x10 ; ret
+0x0007da31 : add esp, 0x100 ; ret
+0x000dfeda : add esp, 0x101c ; ret
+0x00054e03 : add esp, 0x102c ; ret
+0x00054b05 : add esp, 0x103c ; ret
+0x000aae50 : add esp, 0x10c ; ret
+0x000e113d : add esp, 0x11c ; ret
+0x00069304 : add esp, 0x12c ; ret
+0x0002e042 : add esp, 0x130 ; ret
+0x0002ddd9 : add esp, 0x13c ; ret
+0x0002c824 : add esp, 0x14 ; ret
+0x0002ec67 : add esp, 0x14c ; ret
+0x000b9e16 : add esp, 0x16c ; ret
+0x000830c0 : add esp, 0x18 ; ret
+0x000e7e09 : add esp, 0x1ac ; ret
+0x000e7d1a : add esp, 0x1bc ; ret
+0x0011441b : add esp, 0x1c ; add eax, edx ; ret
+0x00019939 : add esp, 0x1c ; ret
+0x000ca36c : add esp, 0x1c ; ret 0xc
+0x0007e9f2 : add esp, 0x20 ; ret
+0x00019f3f : add esp, 0x24 ; ret
+0x0002f3c2 : add esp, 0x25c ; ret
+0x000982d4 : add esp, 0x28 ; ret
+0x0006b2a1 : add esp, 0x29c ; ret
+0x00019871 : add esp, 0x2c ; ret
+0x001007b4 : add esp, 0x2c ; ret 4
+0x000d9c66 : add esp, 0x2c ; ret 8
+0x000ef1d8 : add esp, 0x34 ; ret
+0x0001ba3b : add esp, 0x3c ; ret
+0x0003315d : add esp, 0x3c ; ret 4
+0x0001bb5d : add esp, 0x3c ; ret 8
+0x000e6261 : add esp, 0x40 ; ret
+0x000547e9 : add esp, 0x43c ; ret
+0x00019e46 : add esp, 0x44 ; ret
+0x001195a3 : add esp, 0x45c ; ret
+0x00115666 : add esp, 0x48c ; ret
+0x0001a33a : add esp, 0x4c ; ret
+0x000d7dd5 : add esp, 0x4c ; ret 0x1c
+0x0011b5ca : add esp, 0x4c ; ret 8
+0x000d9541 : add esp, 0x54c ; ret
+0x00054a17 : add esp, 0x5c ; ret
+0x000e60b9 : add esp, 0x64 ; ret
+0x0006634b : add esp, 0x6c ; ret
+0x0011c32b : add esp, 0x6c ; ret 0xc
+0x0002351a : add esp, 0x6c ; ret 8
+0x0002d868 : add esp, 0x7c ; ret
+0x0005ba0c : add esp, 0x81bc ; ret
+0x000196e4 : add esp, 0x8c ; ret
+0x00023326 : add esp, 0x9c ; ret
+0x000e3cf0 : add esp, 0x9c ; ret 4
+0x0002e853 : add esp, 0xac ; ret
+0x000e1734 : add esp, 0xbc ; ret 8
+0x000268d2 : add esp, 0xc ; ret
+0x0007a702 : add esp, 0xc ; ret 4
+0x000672da : add esp, 0xcc ; ret
+0x0006d7d1 : add esp, 0xdc ; ret
+0x00068f5c : add esp, 0xec ; ret
+0x000de48c : add esp, 0xfc ; ret
+0x000310fe : add esp, 4 ; ret
+0x00025f7c : add esp, 8 ; ret
+0x0003306a : add esp, 8 ; ret 4
+0x0019a812 : add esp, dword ptr [eax - 0x7a] ; add bl, byte ptr [ebx + 0xe] ; add al, 0xc6 ; ret
+0x0018d85c : add esp, dword ptr [ebx] ; add dword ptr [edx], ecx ; ret
+0x00173b48 : add esp, dword ptr [ecx + eax + 0x41140e0a] ; ret
+0x0016f988 : add esp, dword ptr [edi] ; add dword ptr [edx], ecx ; ret
+0x00185fe4 : add esp, dword ptr [edx] ; add dword ptr [edx], ecx ; ret
+0x001822c5 : add esp, dword ptr [esi + ecx + 8] ; ret
+0x00171190 : add esp, eax ; add dword ptr [edx], ecx ; ret
+0x0018ef84 : add esp, ebx ; add ecx, dword ptr [edx] ; ret
+0x001859f0 : add esp, edx ; add al, 0xa ; ret
+0x00175846 : add esp, esp ; add dword ptr [edx], ecx ; ret
+0x000f1c09 : add word ptr [ebx], 0x8100 ; ret
+0x00000417 : ret
+0x00008fec : ret 0
+0x0001dab7 : ret 0x10
+0x0002607e : ret 0x100
+0x00025330 : ret 0x101
+0x0000098f : ret 0x1010
+0x00026fb1 : ret 0x102d
+0x000abd15 : ret 0x103
+0x000300b3 : ret 0x104
+0x00109c2b : ret 0x1079
+0x0001806b : ret 0x108
+0x0007c03b : ret 0x1089
+0x000006de : ret 0x1092
+0x000aa077 : ret 0x10e9
+0x00009f84 : ret 0x11
+0x0013447e : ret 0x110
+0x000d17bb : ret 0x1103
+0x00054f30 : ret 0x1174
+0x0001cf00 : ret 0x1189
+0x00005379 : ret 0x12
+0x00000209 : ret 0x120
+0x0004eaa7 : ret 0x13
+0x00072434 : ret 0x130b
+0x000d45a9 : ret 0x133c
+0x000a544d : ret 0x1375
+0x000ccec8 : ret 0x137d
+0x000753fa : ret 0x138
+0x00068e34 : ret 0x13a1
+0x000d5cfd : ret 0x13e9
+0x000bc5f5 : ret 0x13eb
+0x000632d4 : ret 0x13ff
+0x000d7aa2 : ret 0x14
+0x0008207c : ret 0x1403
+0x0011c76c : ret 0x1421
+0x000adbc0 : ret 0x1474
+0x000caac5 : ret 0x1489
+0x000e20aa : ret 0x148d
+0x00054b34 : ret 0x14e4
+0x0008664a : ret 0x15
+0x0006ddc9 : ret 0x1574
+0x000955c7 : ret 0x1676
+0x00095887 : ret 0x167c
+0x0011080e : ret 0x1688
+0x00117aec : ret 0x1689
+0x00045368 : ret 0x16eb
+0x00026d78 : ret 0x17
+0x0001c4ff : ret 0x172b
+0x000ecd62 : ret 0x1789
+0x00056106 : ret 0x178b
+0x0011371e : ret 0x17e9
+0x0005d339 : ret 0x18
+0x000e6162 : ret 0x180
+0x000b7cbf : ret 0x1877
+0x0003064c : ret 0x189
+0x000a8538 : ret 0x18b
+0x00038350 : ret 0x18e9
+0x00056a71 : ret 0x1974
+0x00159506 : ret 0x198
+0x000860ca : ret 0x1a
+0x00031efb : ret 0x1a73
+0x0007d932 : ret 0x1a74
+0x00036b9d : ret 0x1abe
+0x000b9ed8 : ret 0x1ae9
+0x00074d1a : ret 0x1b74
+0x0002b303 : ret 0x1b8
+0x00001b15 : ret 0x1bb7
+0x000261d5 : ret 0x1be
+0x000034ff : ret 0x1bf9
+0x000d7dd8 : ret 0x1c
+0x0007da19 : ret 0x1c74
+0x0005972b : ret 0x1c77
+0x000a39ef : ret 0x1c8b
+0x00127180 : ret 0x1d0
+0x00150860 : ret 0x1d4
+0x00150ff8 : ret 0x1d5
+0x0013a11e : ret 0x1d72
+0x000adaf0 : ret 0x1d74
+0x0009505e : ret 0x1d75
+0x00002141 : ret 0x1dd4
+0x00136b6e : ret 0x1e72
+0x000ad8c0 : ret 0x1e74
+0x000f7a63 : ret 0x1e7e
+0x0005cced : ret 0x1ee9
+0x000305de : ret 0x1f74
+0x0014993e : ret 0x1f75
+0x000a7dc1 : ret 0x1fb8
+0x0002608a : ret 0x200
+0x0012bbe3 : ret 0x202
+0x0011c7ed : ret 0x2074
+0x0000057d : ret 0x2096
+0x00108bad : ret 0x211
+0x001085ad : ret 0x217
+0x000836d4 : ret 0x2174
+0x000f6ce9 : ret 0x2176
+0x0002e29a : ret 0x2177
+0x000003cc : ret 0x224
+0x00120335 : ret 0x2275
+0x000c9000 : ret 0x22e9
+0x001065ad : ret 0x237
+0x00113a5f : ret 0x2394
+0x00002583 : ret 0x23cb
+0x0003c01a : ret 0x24
+0x00002798 : ret 0x244f
+0x0007cfaa : ret 0x2474
+0x0012bb01 : ret 0x2477
+0x0002d099 : ret 0x24e9
+0x00081cd8 : ret 0x2501
+0x000f0ac5 : ret 0x2530
+0x000d9520 : ret 0x2574
+0x0004b4fa : ret 0x25e9
+0x000955b7 : ret 0x2676
+0x00095877 : ret 0x267c
+0x0003f3bc : ret 0x26e9
+0x00095079 : ret 0x275
+0x0019154b : ret 0x28
+0x000843fa : ret 0x280f
+0x00042cc5 : ret 0x2874
+0x000d529f : ret 0x28b
+0x0008d208 : ret 0x2910
+0x00095708 : ret 0x2940
+0x0010c754 : ret 0x2974
+0x00063cb3 : ret 0x29e9
+0x00045241 : ret 0x29eb
+0x00001a1d : ret 0x2a63
+0x00097c52 : ret 0x2a76
+0x000d65fc : ret 0x2a7f
+0x000a8b92 : ret 0x2b3c
+0x000583fe : ret 0x2b74
+0x0002ba67 : ret 0x2b8
+0x000e3e69 : ret 0x2c6
+0x0010fc26 : ret 0x2c72
+0x0013089a : ret 0x2c73
+0x000031d6 : ret 0x2ec0
+0x00041d2c : ret 0x2ee9
+0x000ccf5c : ret 0x301
+0x00001a94 : ret 0x306a
+0x0001c405 : ret 0x3101
+0x000b8c88 : ret 0x311e
+0x0002659b : ret 0x3166
+0x00083639 : ret 0x3174
+0x0013125b : ret 0x3273
+0x00045865 : ret 0x3274
+0x0014fd58 : ret 0x33
+0x0002aeba : ret 0x3377
+0x000026d4 : ret 0x33b1
+0x00017f26 : ret 0x348d
+0x000db480 : ret 0x34eb
+0x0001bb30 : ret 0x3574
+0x0006f35f : ret 0x3675
+0x001234a7 : ret 0x3676
+0x00095867 : ret 0x367c
+0x0010fce1 : ret 0x3772
+0x00107f66 : ret 0x3775
+0x0007020b : ret 0x3776
+0x00009444 : ret 0x38
+0x00095043 : ret 0x3875
+0x00159386 : ret 0x38ae
+0x0001ed62 : ret 0x3901
+0x00021c33 : ret 0x3902
+0x0001d265 : ret 0x3904
+0x000790fc : ret 0x3908
+0x000aa911 : ret 0x3909
+0x00043257 : ret 0x390c
+0x00025723 : ret 0x3910
+0x00071949 : ret 0x3934
+0x0010ca6c : ret 0x3974
+0x000955a4 : ret 0x3976
+0x00042db0 : ret 0x3977
+0x000419b3 : ret 0x3a74
+0x00149923 : ret 0x3a75
+0x000429f2 : ret 0x3a77
+0x000c0a1a : ret 0x3a8b
+0x0001ceda : ret 0x3b01
+0x000f172a : ret 0x3b02
+0x00056cea : ret 0x3b0c
+0x00103ad4 : ret 0x3b10
+0x000eeab1 : ret 0x3b2
+0x00075750 : ret 0x3b30
+0x000b3533 : ret 0x3b34
+0x000f75b4 : ret 0x3b74
+0x000282c9 : ret 0x3c01
+0x000ed4b1 : ret 0x3c8
+0x000a8876 : ret 0x3c8d
+0x0004c3ca : ret 0x3ce9
+0x0004c60a : ret 0x3d
+0x0000044f : ret 0x3e00
+0x00130885 : ret 0x3e73
+0x0005ad92 : ret 0x3e77
+0x000406c2 : ret 0x3ee9
+0x00095b97 : ret 0x3f
+0x0003113d : ret 0x3ff
+0x000311a7 : ret 0x3fff
+0x000db3f1 : ret 0x403c
+0x00105f7e : ret 0x4075
+0x000008f5 : ret 0x4081
+0x00027d40 : ret 0x408b
+0x0004246a : ret 0x408d
+0x0002952c : ret 0x40c7
+0x0005971c : ret 0x4177
+0x0011871b : ret 0x4240
+0x000a89f1 : ret 0x428b
+0x000b9eb0 : ret 0x42e9
+0x0011df79 : ret 0x430f
+0x0011423a : ret 0x4375
+0x00096bc1 : ret 0x4401
+0x000965ab : ret 0x4403
+0x00077929 : ret 0x440b
+0x0008022e : ret 0x442b
+0x001025b8 : ret 0x4439
+0x000fb84b : ret 0x443b
+0x00021653 : ret 0x4489
+0x0001f290 : ret 0x448b
+0x0004ff35 : ret 0x448d
+0x00036265 : ret 0x44c7
+0x000371c8 : ret 0x44f6
+0x0011077f : ret 0x4539
+0x0001f069 : ret 0x4574
+0x0004972d : ret 0x4589
+0x00017596 : ret 0x458b
+0x0003f188 : ret 0x458d
+0x000c91a4 : ret 0x45c7
+0x000e2183 : ret 0x45f6
+0x00114680 : ret 0x463b
+0x00053ea3 : ret 0x4674
+0x000e0677 : ret 0x4676
+0x000d191d : ret 0x4689
+0x0006cccc : ret 0x468b
+0x00098a9e : ret 0x474
+0x000760db : ret 0x475
+0x0007c2e1 : ret 0x476
+0x000d1f3a : ret 0x4789
+0x00025805 : ret 0x478b
+0x0015948e : ret 0x48
+0x0002aaaa : ret 0x4872
+0x00100fd1 : ret 0x488d
+0x000365fe : ret 0x48b
+0x0002b2cb : ret 0x48d
+0x000836aa : ret 0x4974
+0x00147ce3 : ret 0x498d
+0x00022f4a : ret 0x49e9
+0x00003987 : ret 0x49ec
+0x000543d0 : ret 0x4a74
+0x0006d684 : ret 0x4ae9
+0x000a15d6 : ret 0x4aeb
+0x0006de81 : ret 0x4b73
+0x000e6b42 : ret 0x4b74
+0x000cd065 : ret 0x4c0f
+0x00030305 : ret 0x4c7
+0x00131241 : ret 0x4c73
+0x00052791 : ret 0x4c74
+0x0002e25f : ret 0x4c77
+0x00019d2c : ret 0x4c89
+0x00025bbb : ret 0x4d0f
+0x000a50af : ret 0x4d89
+0x000b8dec : ret 0x4d8b
+0x0001d701 : ret 0x4e0f
+0x000f95fe : ret 0x4e74
+0x000b342a : ret 0x4e89
+0x000ce9e5 : ret 0x4e8b
+0x00097cab : ret 0x4eb
+0x0002d0d4 : ret 0x4ee9
+0x0001cd27 : ret 0x4f0f
+0x0004c71b : ret 0x4f8b
+0x0019c060 : ret 0x502
+0x000ce076 : ret 0x5021
+0x00130870 : ret 0x5073
+0x00027dea : ret 0x508b
+0x00039fed : ret 0x508d
+0x0004b59a : ret 0x50e9
+0x00000356 : ret 0x510
+0x000545cd : ret 0x5174
+0x00025bbe : ret 0x518b
+0x00004234 : ret 0x52
+0x000ab135 : ret 0x528
+0x00074346 : ret 0x528b
+0x0008437e : ret 0x528d
+0x0013d972 : ret 0x5310
+0x00095028 : ret 0x5375
+0x0004c3b3 : ret 0x53e9
+0x00076aa4 : ret 0x5403
+0x000c6900 : ret 0x5408
+0x0001f2d7 : ret 0x542b
+0x000acb43 : ret 0x5439
+0x0007ee49 : ret 0x5474
+0x00074245 : ret 0x5488
+0x00019e0d : ret 0x5489
+0x00034df4 : ret 0x548b
+0x0006527b : ret 0x548d
+0x0015930c : ret 0x5508
+0x00120920 : ret 0x5539
+0x0001fdb1 : ret 0x5574
+0x00149908 : ret 0x5575
+0x000023e2 : ret 0x5576
+0x000a5599 : ret 0x5589
+0x000cfa80 : ret 0x558b
+0x0004b1c5 : ret 0x55e9
+0x00131b54 : ret 0x5608
+0x0002d9df : ret 0x5616
+0x00069576 : ret 0x562b
+0x000a75f5 : ret 0x5657
+0x0007454f : ret 0x5675
+0x0011426b : ret 0x5689
+0x000f976c : ret 0x568d
+0x001302b5 : ret 0x5708
+0x001407c8 : ret 0x5710
+0x000d720f : ret 0x5739
+0x0006f86e : ret 0x5774
+0x000714ea : ret 0x57e9
+0x0000c704 : ret 0x59
+0x00158fe0 : ret 0x591c
+0x0002d627 : ret 0x59ce
+0x000032c9 : ret 0x5a51
+0x00060d03 : ret 0x5a74
+0x00002fbf : ret 0x5bdb
+0x0002d3cd : ret 0x5c28
+0x00040c04 : ret 0x5c8b
+0x00085b7a : ret 0x5c8d
+0x00003089 : ret 0x5cbe
+0x0014572c : ret 0x5d5e
+0x00095300 : ret 0x5deb
+0x0006cfc7 : ret 0x5e75
+0x000d08bc : ret 0x5ee9
+0x000ea67a : ret 0x5f
+0x0001c25a : ret 0x605
+0x0001b55a : ret 0x612
+0x000026cd : ret 0x617e
+0x0013085b : ret 0x6273
+0x00038b57 : ret 0x62e9
+0x000e1e2b : ret 0x64e9
+0x000e92c5 : ret 0x658d
+0x0002c67f : ret 0x6601
+0x0008cae3 : ret 0x6640
+0x000027eb : ret 0x6642
+0x00131227 : ret 0x6673
+0x0006031c : ret 0x6674
+0x0001bbdf : ret 0x66e9
+0x000a8999 : ret 0x673
+0x000955d7 : ret 0x676
+0x00158fff : ret 0x67b2
+0x00095897 : ret 0x67c
+0x000a88e4 : ret 0x67d
+0x00101dc8 : ret 0x67e
+0x000371fd : ret 0x688d
+0x00038a64 : ret 0x689
+0x00021693 : ret 0x68b
+0x00038200 : ret 0x68e9
+0x00054240 : ret 0x6974
+0x000aa6a1 : ret 0x6a8d
+0x00097702 : ret 0x6ae9
+0x000ba75d : ret 0x6b8
+0x00003d9e : ret 0x6bba
+0x00077ba9 : ret 0x6c74
+0x00019c6a : ret 0x6c89
+0x00021f5c : ret 0x6c8b
+0x000d53d7 : ret 0x6d74
+0x000e3fa7 : ret 0x6e73
+0x000a3285 : ret 0x6ee9
+0x00123840 : ret 0x7089
+0x00132534 : ret 0x70a
+0x0007b0b1 : ret 0x70e9
+0x0011c5a1 : ret 0x7239
+0x000ab6bf : ret 0x728d
+0x000560bf : ret 0x72e9
+0x000d95c2 : ret 0x7378
+0x000201c4 : ret 0x737e
+0x00049c8c : ret 0x73e9
+0x00111f92 : ret 0x7401
+0x000cb62d : ret 0x7402
+0x0007a744 : ret 0x7403
+0x000cb759 : ret 0x7404
+0x000cb766 : ret 0x7408
+0x000958eb : ret 0x7410
+0x00064c59 : ret 0x7420
+0x000d5b19 : ret 0x7439
+0x000e4973 : ret 0x7440
+0x00048a91 : ret 0x7450
+0x00020035 : ret 0x7480
+0x000962fa : ret 0x7489
+0x000268c9 : ret 0x748b
+0x0002d5cb : ret 0x748d
+0x0001fbaf : ret 0x7501
+0x0008f8a7 : ret 0x7502
+0x0010387c : ret 0x7503
+0x0008f8ac : ret 0x7504
+0x0010fd7b : ret 0x7507
+0x00069fbc : ret 0x7508
+0x0008f8c1 : ret 0x7510
+0x000ad9a7 : ret 0x7518
+0x0008f8c6 : ret 0x7520
+0x0008f8cb : ret 0x7540
+0x00020012 : ret 0x7580
+0x000b9df4 : ret 0x768d
+0x000a796b : ret 0x76c
+0x000bdaf2 : ret 0x76e9
+0x00065aeb : ret 0x774
+0x00073132 : ret 0x775
+0x000faecb : ret 0x77e
+0x000ee232 : ret 0x7801
+0x000a3cee : ret 0x788b
+0x000dac46 : ret 0x789
+0x00074d14 : ret 0x78b
+0x00002efc : ret 0x793b
+0x001486c1 : ret 0x7c06
+0x001486d1 : ret 0x7c07
+0x001486e1 : ret 0x7c09
+0x001486f1 : ret 0x7c0a
+0x00148701 : ret 0x7c0b
+0x00148711 : ret 0x7c0d
+0x00148721 : ret 0x7c0e
+0x00148731 : ret 0x7c0f
+0x00040066 : ret 0x7c83
+0x0006c36c : ret 0x7c89
+0x0001f5c7 : ret 0x7c8b
+0x00101957 : ret 0x7c8d
+0x000df02e : ret 0x7ce9
+0x00059342 : ret 0x7d77
+0x00017700 : ret 0x7d80
+0x000cfbc1 : ret 0x7d83
+0x0004c412 : ret 0x7de9
+0x001302f5 : ret 0x7e10
+0x00132d35 : ret 0x80
+0x0002bff0 : ret 0x8001
+0x0004f8ef : ret 0x8004
+0x000aab51 : ret 0x8008
+0x000cf63f : ret 0x804
+0x0010b15e : ret 0x8080
+0x00074009 : ret 0x808b
+0x00003944 : ret 0x80fc
+0x000c2b03 : ret 0x8101
+0x0007515c : ret 0x8108
+0x0011bcb1 : ret 0x8112
+0x00047031 : ret 0x8120
+0x000ad151 : ret 0x8166
+0x000b9a86 : ret 0x81c3
+0x0003a0af : ret 0x820f
+0x00127171 : ret 0x828b
+0x0001dc70 : ret 0x8301
+0x0002c742 : ret 0x8302
+0x001105f3 : ret 0x8303
+0x0001aad6 : ret 0x8304
+0x000c3496 : ret 0x8305
+0x00098381 : ret 0x8308
+0x0010c949 : ret 0x830c
+0x0003d04d : ret 0x830f
+0x00097c67 : ret 0x8310
+0x000f9338 : ret 0x8318
+0x00017a7c : ret 0x831e
+0x000bbb92 : ret 0x831f
+0x0007df55 : ret 0x8320
+0x0012526d : ret 0x8328
+0x000ab918 : ret 0x8334
+0x0008cb34 : ret 0x8340
+0x00029580 : ret 0x8360
+0x0001bbb5 : ret 0x8365
+0x0007b514 : ret 0x8389
+0x00028cd6 : ret 0x838b
+0x000243c2 : ret 0x838d
+0x000e68fe : ret 0x8390
+0x000a85ec : ret 0x83b8
+0x000702b6 : ret 0x83eb
+0x0002831e : ret 0x8401
+0x0007c4c5 : ret 0x8404
+0x00017a69 : ret 0x840f
+0x00035577 : ret 0x843b
+0x000fd88f : ret 0x8448
+0x000d25bd : ret 0x8488
+0x000d3464 : ret 0x8489
+0x000ac63b : ret 0x848b
+0x00038467 : ret 0x848d
+0x0006adad : ret 0x84eb
+0x000a4cad : ret 0x850
+0x0001b2f4 : ret 0x8501
+0x00043429 : ret 0x8503
+0x0004be45 : ret 0x8504
+0x000d52a7 : ret 0x8505
+0x000a74b1 : ret 0x8506
+0x00029aac : ret 0x8508
+0x0014b112 : ret 0x850c
+0x0001bb8e : ret 0x850f
+0x00098036 : ret 0x8510
+0x000afede : ret 0x8530
+0x0004eb83 : ret 0x8539
+0x00095bea : ret 0x8540
+0x00045082 : ret 0x8588
+0x000185a4 : ret 0x8589
+0x000b194d : ret 0x858b
+0x000c8ebc : ret 0x85c7
+0x000aa314 : ret 0x85e9
+0x00021aa4 : ret 0x860f
+0x000e6117 : ret 0x8675
+0x000244f0 : ret 0x870f
+0x00158926 : ret 0x871e
+0x00019fc6 : ret 0x8801
+0x000c10cb : ret 0x8804
+0x00024eaf : ret 0x880f
+0x0000254c : ret 0x88ad
+0x0001f276 : ret 0x8901
+0x0002c269 : ret 0x8902
+0x0001ef64 : ret 0x8904
+0x000a7909 : ret 0x8907
+0x0005d751 : ret 0x8908
+0x0002318d : ret 0x8909
+0x0004a2f4 : ret 0x890c
+0x000a65ac : ret 0x8910
+0x00118a99 : ret 0x891c
+0x000ec24e : ret 0x891e
+0x00117a82 : ret 0x891f
+0x00043410 : ret 0x8920
+0x0001ee41 : ret 0x8924
+0x000b3329 : ret 0x8934
+0x0001bd2a : ret 0x893c
+0x000d442f : ret 0x8940
+0x000fd571 : ret 0x8948
+0x000e8ae2 : ret 0x8957
+0x000a565d : ret 0x895e
+0x0002e1d4 : ret 0x8965
+0x000e45cf : ret 0x8966
+0x000e3d86 : ret 0x8975
+0x0007d90d : ret 0x8a04
+0x000024eb : ret 0x8a4c
+0x000264c3 : ret 0x8a72
+0x0002d108 : ret 0x8ae9
+0x0001c75e : ret 0x8b
+0x0001ccc1 : ret 0x8b01
+0x000ff401 : ret 0x8b02
+0x00029a92 : ret 0x8b04
+0x000ac31d : ret 0x8b08
+0x000c8a83 : ret 0x8b0c
+0x0007c461 : ret 0x8b10
+0x000fa61c : ret 0x8b18
+0x00043190 : ret 0x8b1e
+0x001110d6 : ret 0x8b28
+0x00031c9e : ret 0x8b90
+0x0001b3cf : ret 0x8beb
+0x00117da3 : ret 0x8c0b
+0x0000382e : ret 0x8cba
+0x00019ff4 : ret 0x8d01
+0x00055e05 : ret 0x8d04
+0x00095b31 : ret 0x8d10
+0x000ce5ae : ret 0x8d38
+0x00051f74 : ret 0x8d3b
+0x0001b327 : ret 0x8d3c
+0x000265a0 : ret 0x8d74
+0x0004d256 : ret 0x8d89
+0x0004bc5a : ret 0x8d90
+0x000b9947 : ret 0x8dc3
+0x0006e40a : ret 0x8dd
+0x0004948d : ret 0x8e0f
+0x0003f563 : ret 0x901
+0x00018750 : ret 0x904
+0x0003f785 : ret 0x9066
+0x000a7b45 : ret 0x90c3
+0x000fd33e : ret 0x9188
+0x000e5604 : ret 0x920f
+0x00074361 : ret 0x933b
+0x000a9a2f : ret 0x9389
+0x0012921b : ret 0x94
+0x0006589c : ret 0x940f
+0x00035790 : ret 0x942b
+0x00149959 : ret 0x9474
+0x0009a7d7 : ret 0x948b
+0x000aa2ac : ret 0x950f
+0x00053782 : ret 0x9520
+0x000490a9 : ret 0x952b
+0x0004e823 : ret 0x9539
+0x0004e8d6 : ret 0x953b
+0x000948b1 : ret 0x954
+0x000cd1b9 : ret 0x9574
+0x00053712 : ret 0x9588
+0x000431ce : ret 0x9589
+0x00050850 : ret 0x958b
+0x0002cfc8 : ret 0x95e9
+0x000b5b76 : ret 0x95eb
+0x0010c934 : ret 0x966
+0x0004998e : ret 0x974
+0x00003810 : ret 0x975
+0x000dffdf : ret 0x9775
+0x0004b645 : ret 0x97e9
+0x0012f8d3 : ret 0x99e9
+0x0002d143 : ret 0x9ae9
+0x000e0f19 : ret 0x9b8
+0x001300db : ret 0x9be9
+0x00073934 : ret 0x9beb
+0x0010c07c : ret 0x9c
+0x0006af22 : ret 0x9ceb
+0x00074d7b : ret 0x9f74
+0x0007da93 : ret 0xa
+0x0016fc9a : ret 0xa03
+0x0002cc5c : ret 0xa1eb
+0x000f945b : ret 0xa274
+0x000585fe : ret 0xa477
+0x000c8d7d : ret 0xa5e9
+0x000a7928 : ret 0xa5eb
+0x0009f87d : ret 0xa72
+0x000bd49e : ret 0xa74
+0x000f7a55 : ret 0xa7d
+0x0011f01b : ret 0xaaeb
+0x0002aef1 : ret 0xab89
+0x000a3148 : ret 0xabe9
+0x000e6556 : ret 0xac75
+0x000d631f : ret 0xac8b
+0x000d9837 : ret 0xace9
+0x00000532 : ret 0xad0
+0x000ab11f : ret 0xad5
+0x0011ef33 : ret 0xaeeb
+0x001135fa : ret 0xaf
+0x000a662a : ret 0xb
+0x0011e6b3 : ret 0xb0eb
+0x000dffc5 : ret 0xb175
+0x000513cb : ret 0xb375
+0x00020f0e : ret 0xb48b
+0x0007cb78 : ret 0xb48d
+0x0002d177 : ret 0xb4e9
+0x0004e2a2 : ret 0xb5e9
+0x0002e736 : ret 0xb60f
+0x00072109 : ret 0xb68d
+0x00021c85 : ret 0xb70f
+0x0002d243 : ret 0xb8
+0x000a7e71 : ret 0xb801
+0x0013258a : ret 0xb9
+0x000031cd : ret 0xba88
+0x00051592 : ret 0xbb74
+0x000ed8d5 : ret 0xbb8d
+0x00117e46 : ret 0xbc80
+0x0009a9dc : ret 0xbc83
+0x000201c8 : ret 0xbc8b
+0x00002408 : ret 0xbd07
+0x00077399 : ret 0xbd0b
+0x00018f7b : ret 0xbd80
+0x000429ac : ret 0xbd83
+0x0004662c : ret 0xbd89
+0x00042c9c : ret 0xbe0f
+0x000e71d2 : ret 0xbf04
+0x0007cbbe : ret 0xbfeb
+0x00007aa4 : ret 0xc
+0x00019549 : ret 0xc031
+0x0007e2ec : ret 0xc083
+0x0001d704 : ret 0xc085
+0x000842af : ret 0xc0be
+0x00194ddb : ret 0xc0e
+0x000205d1 : ret 0xc101
+0x000376b6 : ret 0xc102
+0x000553b0 : ret 0xc110
+0x00019fe6 : ret 0xc129
+0x00019fd8 : ret 0xc183
+0x0006f757 : ret 0xc189
+0x0003363a : ret 0xc269
+0x000af3dd : ret 0xc26b
+0x00072337 : ret 0xc281
+0x00062eeb : ret 0xc283
+0x0006d936 : ret 0xc289
+0x001310a9 : ret 0xc2bb
+0x00085cfe : ret 0xc301
+0x000f0d1a : ret 0xc35e
+0x000d8745 : ret 0xc374
+0x000d1cb2 : ret 0xc375
+0x00067900 : ret 0xc3f3
+0x000db4b6 : ret 0xc481
+0x00124995 : ret 0xc483
+0x000de334 : ret 0xc4c
+0x00157a62 : ret 0xc4c3
+0x00019a32 : ret 0xc589
+0x000518d9 : ret 0xc5e9
+0x000497a6 : ret 0xc5eb
+0x0003f206 : ret 0xc6
+0x0006fb61 : ret 0xc601
+0x000c3b5a : ret 0xc616
+0x0006ff69 : ret 0xc621
+0x000ffc1d : ret 0xc674
+0x00081ede : ret 0xc683
+0x000d8e7f : ret 0xc689
+0x00041d59 : ret 0xc7
+0x0001ad69 : ret 0xc701
+0x00082a84 : ret 0xc702
+0x00117833 : ret 0xc707
+0x00124539 : ret 0xc709
+0x00073139 : ret 0xc74
+0x00029535 : ret 0xc740
+0x000ba240 : ret 0xc75
+0x0004acdb : ret 0xc783
+0x00127ee9 : ret 0xc789
+0x0002aca8 : ret 0xc801
+0x000774a5 : ret 0xc883
+0x00048906 : ret 0xc889
+0x00063887 : ret 0xc89
+0x0002aabc : ret 0xc8d
+0x0002ae9e : ret 0xc984
+0x000291dd : ret 0xc985
+0x0012889d : ret 0xca39
+0x0002e051 : ret 0xca81
+0x0012f492 : ret 0xca85
+0x000ee2ce : ret 0xcad8
+0x0002cd9a : ret 0xcae9
+0x000d86c1 : ret 0xcb8
+0x000b9e4d : ret 0xcb87
+0x000ee8fd : ret 0xcbeb
+0x00075659 : ret 0xcc75
+0x0015934a : ret 0xcca7
+0x0010cd0c : ret 0xcd89
+0x00053c41 : ret 0xce01
+0x001313a5 : ret 0xce89
+0x000a5656 : ret 0xcf74
+0x0012f343 : ret 0xcf89
+0x000e2aa3 : ret 0xcfe9
+0x00056f7d : ret 0xd
+0x00029a2b : ret 0xd001
+0x001210e0 : ret 0xd008
+0x00037ead : ret 0xd009
+0x000a9515 : ret 0xd021
+0x000b984f : ret 0xd028
+0x000a4c65 : ret 0xd029
+0x000305e4 : ret 0xd039
+0x0001ed19 : ret 0xd089
+0x0004a4d4 : ret 0xd0f7
+0x000c6fd9 : ret 0xd101
+0x00018f14 : ret 0xd104
+0x000ab3cd : ret 0xd129
+0x000a8157 : ret 0xd138
+0x0011aae9 : ret 0xd139
+0x0001a02a : ret 0xd1eb
+0x000a77ac : ret 0xd269
+0x000af70c : ret 0xd26b
+0x00037895 : ret 0xd274
+0x00047cd1 : ret 0xd284
+0x0002312e : ret 0xd285
+0x000370c7 : ret 0xd2f7
+0x000a2791 : ret 0xd318
+0x0003d663 : ret 0xd340
+0x000f71f3 : ret 0xd3eb
+0x0003f249 : ret 0xd476
+0x000d2e68 : ret 0xd4eb
+0x000c31ad : ret 0xd501
+0x0004ab75 : ret 0xd589
+0x000fc23e : ret 0xd5eb
+0x000807ee : ret 0xd601
+0x000bc8c6 : ret 0xd639
+0x00049051 : ret 0xd689
+0x000490bc : ret 0xd701
+0x000f1d76 : ret 0xd73
+0x00071639 : ret 0xd739
+0x000d0810 : ret 0xd75
+0x0003f348 : ret 0xd77
+0x000d6966 : ret 0xd772
+0x00027928 : ret 0xd789
+0x0005cd34 : ret 0xd7e9
+0x0007a7bb : ret 0xd8eb
+0x0006a360 : ret 0xd8f7
+0x0002d791 : ret 0xdaf7
+0x0004bf31 : ret 0xdb01
+0x0008c9fa : ret 0xdb31
+0x000f7ae2 : ret 0xdb74
+0x000d99d3 : ret 0xdbeb
+0x00158cb5 : ret 0xde9e
+0x00064946 : ret 0xdeeb
+0x0004b5fd : ret 0xdfe9
+0x00125fa6 : ret 0xdfeb
+0x0009fc0d : ret 0xe
+0x000003b9 : ret 0xe000
+0x000fc43d : ret 0xe075
+0x0001d70c : ret 0xe083
+0x00185aad : ret 0xe0a
+0x0006c70f : ret 0xe0c1
+0x0010506c : ret 0xe181
+0x00095b01 : ret 0xe183
+0x000477ad : ret 0xe25
+0x00147815 : ret 0xe280
+0x0001fe62 : ret 0xe281
+0x00017572 : ret 0xe283
+0x000bcb3c : ret 0xe289
+0x00032abb : ret 0xe2c1
+0x000d3b50 : ret 0xe2d3
+0x0019156f : ret 0xe41
+0x000d2d19 : ret 0xe577
+0x000ed29d : ret 0xe74
+0x0004042e : ret 0xe75
+0x000740fd : ret 0xe783
+0x000459a1 : ret 0xe7e9
+0x000cf156 : ret 0xe801
+0x000ba588 : ret 0xe87
+0x0003f7a5 : ret 0xe883
+0x0004a845 : ret 0xe889
+0x0010c8b8 : ret 0xe89
+0x0006f221 : ret 0xe8b
+0x0002f767 : ret 0xe8c1
+0x0004b52b : ret 0xe9
+0x0002847b : ret 0xe901
+0x0002849d : ret 0xe902
+0x000e8b8f : ret 0xe903
+0x00115846 : ret 0xe904
+0x0002853a : ret 0xe90a
+0x000e83b0 : ret 0xe910
+0x000c3ebc : ret 0xe912
+0x00159427 : ret 0xe970
+0x0001f1d0 : ret 0xe983
+0x000963e9 : ret 0xe989
+0x0005b412 : ret 0xe9c1
+0x00076e07 : ret 0xea01
+0x000a77e0 : ret 0xea6b
+0x00097519 : ret 0xea81
+0x0002811b : ret 0xea83
+0x0001914f : ret 0xeac1
+0x000205f1 : ret 0xead3
+0x000822f9 : ret 0xeb01
+0x000e8b31 : ret 0xeb03
+0x0005c125 : ret 0xeb04
+0x000c5e66 : ret 0xeb18
+0x00126f41 : ret 0xebeb
+0x00047ae9 : ret 0xec75
+0x000dad1e : ret 0xec83
+0x0014b48a : ret 0xecba
+0x0006fabf : ret 0xed31
+0x00042168 : ret 0xed72
+0x000a9ab8 : ret 0xed75
+0x0007cb4e : ret 0xed83
+0x000a8852 : ret 0xed85
+0x000979d5 : ret 0xedc1
+0x00019cba : ret 0xee39
+0x000826e7 : ret 0xeec1
+0x00177468 : ret 0xef13
+0x00177c30 : ret 0xef21
+0x0012381a : ret 0xef36
+0x000aaa52 : ret 0xef39
+0x00179f94 : ret 0xef95
+0x00046622 : ret 0xefc1
+0x000e5df5 : ret 0xeff0
+0x0017b058 : ret 0xeff8
+0x00169000 : ret 0xeffa
+0x0002db04 : ret 0xf
+0x0014851f : ret 0xf00
+0x0007fda1 : ret 0xf001
+0x00019fa8 : ret 0xf01
+0x001691d0 : ret 0xf012
+0x0002c695 : ret 0xf02
+0x0006d9dd : ret 0xf021
+0x001025a3 : ret 0xf03
+0x0004141c : ret 0xf04
+0x001486b1 : ret 0xf05
+0x000783dc : ret 0xf07
+0x0001cd4d : ret 0xf075
+0x0004142f : ret 0xf08
+0x00041215 : ret 0xf089
+0x0014866c : ret 0xf0c
+0x001498d3 : ret 0xf0f
+0x00147243 : ret 0xf10
+0x0009cbb6 : ret 0xf129
+0x000368d4 : ret 0xf175
+0x000ae159 : ret 0xf18
+0x0001f6e1 : ret 0xf189
+0x000fe35a : ret 0xf18b
+0x0018539d : ret 0xf1bf
+0x00147254 : ret 0xf20
+0x000c73b4 : ret 0xf229
+0x001107fb : ret 0xf24
+0x00185d87 : ret 0xf25a
+0x000cc38f : ret 0xf275
+0x000d344b : ret 0xf289
+0x000f798a : ret 0xf2f2
+0x0002e932 : ret 0xf302
+0x000c5c2b : ret 0xf304
+0x000e381a : ret 0xf336
+0x000d41e2 : ret 0xf375
+0x000c5682 : ret 0xf377
+0x000dc21a : ret 0xf3ac
+0x00147265 : ret 0xf40
+0x0018cfa1 : ret 0xf522
+0x000bd78a : ret 0xf597
+0x0001bf3c : ret 0xf601
+0x0013ec84 : ret 0xf608
+0x000f7530 : ret 0xf618
+0x000f8322 : ret 0xf631
+0x00084203 : ret 0xf66
+0x000f7a5f : ret 0xf67c
+0x0007bd11 : ret 0xf685
+0x000b33b1 : ret 0xf703
+0x000765bd : ret 0xf708
+0x000fc22b : ret 0xf75
+0x000eca4a : ret 0xf76d
+0x000e9996 : ret 0xf783
+0x0006a1b8 : ret 0xf789
+0x000484d5 : ret 0xf7e9
+0x000202c1 : ret 0xf80
+0x00081b42 : ret 0xf800
+0x000fe2d6 : ret 0xf829
+0x00158b94 : ret 0xf869
+0x00098fbc : ret 0xf883
+0x000202ca : ret 0xf889
+0x000785fc : ret 0xf8b8
+0x000320c5 : ret 0xf8c1
+0x0012ff4b : ret 0xf8d3
+0x0008000a : ret 0xf96e
+0x0016cda0 : ret 0xf974
+0x0004b31d : ret 0xf980
+0x000fcbd9 : ret 0xf989
+0x0007854b : ret 0xf9b8
+0x0002d566 : ret 0xf9c1
+0x000b33ad : ret 0xfa29
+0x0007160e : ret 0xfa39
+0x000d644b : ret 0xfa73
+0x000320ad : ret 0xfa83
+0x001313bb : ret 0xfa85
+0x0007867f : ret 0xfab8
+0x0002b2ba : ret 0xfac1
+0x000d0f0a : ret 0xfad1
+0x000cf8ca : ret 0xfaee
+0x0002ebb1 : ret 0xfb1
+0x0005ea0a : ret 0xfb84
+0x00078f18 : ret 0xfbba
+0x00100c36 : ret 0xfbcd
+0x00055e5a : ret 0xfbd2
+0x000786ab : ret 0xfcb8
+0x00166038 : ret 0xfcd1
+0x001662b8 : ret 0xfcd5
+0x00166cac : ret 0xfd0c
+0x0011dcfa : ret 0xfd27
+0x00167168 : ret 0xfd2c
+0x00167260 : ret 0xfd2d
+0x00167324 : ret 0xfd3a
+0x000a89da : ret 0xfd45
+0x00167470 : ret 0xfd49
+0x0016746c : ret 0xfd4b
+0x00167764 : ret 0xfd5c
+0x000784ee : ret 0xfdb8
+0x000407a6 : ret 0xfde9
+0x000b247a : ret 0xfe57
+0x000985ba : ret 0xfe5b
+0x00023cda : ret 0xfe83
+0x00149a7a : ret 0xfe89
+0x00063cdd : ret 0xfe9
+0x0002c98a : ret 0xfea5
+0x0002d79d : ret 0xfeb8
+0x0003868a : ret 0xfee5
+0x0002d3a9 : ret 0xff25
+0x001310a4 : ret 0xff3
+0x00107e6a : ret 0xff7f
+0x000d8a1b : ret 0xff80
+0x00097c7e : ret 0xff85
+0x0005b631 : ret 0xffb2
+0x0002de35 : ret 0xffb8
+0x0003ddc1 : ret 0xffbe
+0x0003b98b : ret 0xffbf
+0x0005268c : ret 0xffc1
+0x0007aa11 : ret 0xffd2
+0x00037fca : ret 0xffdb
+0x00044a79 : ret 0xffdf
+0x0007f20a : ret 0xffea
+0x00171bc9 : ret 0xffeb
+0x00030a7a : ret 0xffec
+0x00176500 : ret 0xffee
+0x000eb0ed : ret 0xfff
+0x0002a5e9 : ret 0xfff0
+0x000fac8c : ret 0xfff1
+0x00037157 : ret 0xfff2
+0x000f1e0a : ret 0xfff3
+0x00037502 : ret 0xfff4
+0x000d6e13 : ret 0xfff5
+0x00074baa : ret 0xfff7
+0x000504ff : ret 0xfff8
+0x000e211a : ret 0xfff9
+0x0001b78e : ret 0xfffa
+0x0001965e : ret 0xfffb
+0x0001f5ef : ret 0xfffc
+0x00025187 : ret 0xfffd
+0x0001a723 : ret 0xfffe
+0x00031aca : ret 0xffff
+0x00129bad : ret 1
+0x00000ec0 : ret 2
+0x000edaeb : ret 3
+0x000ddac5 : ret 4
+0x000013e8 : ret 5
+0x00001590 : ret 6
+0x00001734 : ret 7
+0x000018c4 : ret 8
+0x00106d43 : ret 9
+
+Unique gadgets found: 2215

