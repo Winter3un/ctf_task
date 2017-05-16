@@ -7,10 +7,10 @@ import roputils
 from pwn import *
 import time
 context(log_level="debug",arch="amd64")
-DEBUG = 1
+DEBUG = 0
 target = "./smallest"
-remote_ip = "106.75.61.55"
-port = 20000
+remote_ip = "106.75.66.195"
+port = 11006
 rop = roputils.ROP(target)
 # bss = rop.section('.bss')
 # rop.got('puts')
