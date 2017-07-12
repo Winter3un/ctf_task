@@ -1,0 +1,3 @@
+version.o: version-generated.c ../common/version.h
+
+../common/version.h:

@@ -1,0 +1,22 @@
+gdbreplay.o: gdbreplay.c config.h build-gnulib-gdbserver/config.h \
+ ../common/version.h build-gnulib-gdbserver/import/stdio.h \
+ build-gnulib-gdbserver/import/signal.h \
+ build-gnulib-gdbserver/import/stdlib.h \
+ build-gnulib-gdbserver/import/string.h \
+ build-gnulib-gdbserver/import/unistd.h
+
+config.h:
+
+build-gnulib-gdbserver/config.h:
+
+../common/version.h:
+
+build-gnulib-gdbserver/import/stdio.h:
+
+build-gnulib-gdbserver/import/signal.h:
+
+build-gnulib-gdbserver/import/stdlib.h:
+
+build-gnulib-gdbserver/import/string.h:
+
+build-gnulib-gdbserver/import/unistd.h:

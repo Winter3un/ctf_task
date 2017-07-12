@@ -1,0 +1,116 @@
+inferiors.o: inferiors.c server.h ../common/common-defs.h config.h \
+ build-gnulib-gdbserver/config.h build-gnulib-gdbserver/import/stdio.h \
+ build-gnulib-gdbserver/import/stdlib.h \
+ build-gnulib-gdbserver/import/stdint.h \
+ build-gnulib-gdbserver/import/string.h ../../include/ansidecl.h \
+ ../../include/libiberty.h ../../include/ansidecl.h \
+ ../gnulib/import/pathmax.h build-gnulib-gdbserver/import/unistd.h \
+ ../../include/gdb/signals.h ../../include/gdb/signals.def \
+ ../common/gdb_locale.h ../common/ptid.h ../common/common-types.h \
+ ../common/common-utils.h ../common/gdb_assert.h ../common/errors.h \
+ ../common/print-utils.h ../common/common-debug.h ../common/cleanups.h \
+ ../common/common-exceptions.h ../common/gdb_unique_ptr.h \
+ ../common/version.h ../common/buffer.h ../common/xml-utils.h regcache.h \
+ ../common/common-regcache.h ../common/gdb_signals.h target.h \
+ ../target/target.h ../target/waitstatus.h ../target/resume.h \
+ ../target/wait.h mem-break.h ../common/break-common.h \
+ ../common/btrace-common.h ../common/vec.h gdbthread.h inferiors.h \
+ ../common/gdb_vecs.h event-loop.h remote-utils.h utils.h debug.h dll.h
+
+server.h:
+
+../common/common-defs.h:
+
+config.h:
+
+build-gnulib-gdbserver/config.h:
+
+build-gnulib-gdbserver/import/stdio.h:
+
+build-gnulib-gdbserver/import/stdlib.h:
+
+build-gnulib-gdbserver/import/stdint.h:
+
+build-gnulib-gdbserver/import/string.h:
+
+../../include/ansidecl.h:
+
+../../include/libiberty.h:
+
+../../include/ansidecl.h:
+
+../gnulib/import/pathmax.h:
+
+build-gnulib-gdbserver/import/unistd.h:
+
+../../include/gdb/signals.h:
+
+../../include/gdb/signals.def:
+
+../common/gdb_locale.h:
+
+../common/ptid.h:
+
+../common/common-types.h:
+
+../common/common-utils.h:
+
+../common/gdb_assert.h:
+
+../common/errors.h:
+
+../common/print-utils.h:
+
+../common/common-debug.h:
+
+../common/cleanups.h:
+
+../common/common-exceptions.h:
+
+../common/gdb_unique_ptr.h:
+
+../common/version.h:
+
+../common/buffer.h:
+
+../common/xml-utils.h:
+
+regcache.h:
+
+../common/common-regcache.h:
+
+../common/gdb_signals.h:
+
+target.h:
+
+../target/target.h:
+
+../target/waitstatus.h:
+
+../target/resume.h:
+
+../target/wait.h:
+
+mem-break.h:
+
+../common/break-common.h:
+
+../common/btrace-common.h:
+
+../common/vec.h:
+
+gdbthread.h:
+
+inferiors.h:
+
+../common/gdb_vecs.h:
+
+event-loop.h:
+
+remote-utils.h:
+
+utils.h:
+
+debug.h:
+
+dll.h:

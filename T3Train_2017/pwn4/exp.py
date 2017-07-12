@@ -8,8 +8,8 @@ from pwn import *
 context(log_level="debug")
 DEBUG = 0
 target = "./pwn"
-remote_ip = "192.168.5.81"
-port = 8000
+remote_ip = "192.168.245.179"
+port = 5556
 rop = roputils.ROP(target)
 libc = ELF("./libc.so.6")
 # bss = rop.section('.bss')

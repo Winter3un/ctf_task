@@ -1,0 +1,1 @@
+xml-builtin.o: xml-builtin-generated.c

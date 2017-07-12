@@ -21,8 +21,8 @@ shellcode = buf
 
 DEBUG = 0
 target = "./pwn1"
-remote_ip = "192.168.5.53"
-port =  8888
+remote_ip = "192.168.245.179"
+port =  5558
 rop = roputils.ROP(target)
 # bss = rop.section('.bss')
 # rop.got('puts')
